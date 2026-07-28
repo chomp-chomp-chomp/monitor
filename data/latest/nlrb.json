@@ -1,5 +1,7 @@
 {
-  "ok": false,
-  "checkedAt": "2026-07-28T20:49:16.745Z",
-  "error": "Could not locate the filings table on the NLRB recent-filings page — the page structure may have changed.\npage title: \"Recent Charges and Petitions Filings | National Labor Relations Board\"\n<table> count: 0\nbody text preview: \"Skip to main content <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M8MXTR3\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe> .language-banner .usa-accordion { padding: 0px; border: 0px; } .language-banner .usa-banner__inner { margin: 0px; } .usa-banner__button::af\""
+  "ok": true,
+  "checkedAt": "2026-07-28T20:59:45.343Z",
+  "records": [],
+  "bootstrap": true,
+  "seededCount": 200
 }
