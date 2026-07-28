@@ -1,0 +1,61 @@
+name: Filings Monitor
+
+on:
+  schedule:
+    # Every 4 hours (6x/day), UTC. Note: GitHub only fires `schedule` events
+    # for workflows on the repo's default branch — this cron is inert until
+    # this workflow file is merged there. Use "Run workflow" to test earlier.
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: filings-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run monitor
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+          NOTIFY_EMAIL_FROM: ${{ secrets.NOTIFY_EMAIL_FROM }}
+        run: npm start
+
+      - name: Commit and push updated data/dashboard
+        if: always()
+        run: |
+          git config user.name "filings-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "Update filings data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push failed, pulling and retrying ($attempt)..."
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+          echo "Failed to push after retries" >&2
+          exit 1

@@ -1,0 +1,16 @@
+{
+  "name": "filings-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Polls public regulator filings reports and reports what's new.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/run.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
