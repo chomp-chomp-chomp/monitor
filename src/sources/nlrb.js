@@ -6,50 +6,20 @@ export const label = 'NLRB';
 const BASE_URL = 'https://www.nlrb.gov/reports/graphs-data/recent-filings';
 const USER_AGENT =
   'FilingsMonitorBot/1.0 (+https://github.com/chomp-chomp-chomp/monitor; low-frequency automated public-data check)';
-const ITEMS_PER_PAGE = 100;
-const MAX_PAGES = 5;
+// Confirmed against a real capture of the page: results are plain
+// server-rendered HTML (not an AJAX/Views table), already sorted by
+// Date Filed descending, 20 records per page, paginated via ?page=N
+// (0-indexed). Each filing is a `.rer-content` card, not a <table> row.
+const ITEMS_PER_PAGE = 20;
+const MAX_PAGES = 10;
 const PAGE_DELAY_MS = 2000;
-
-// Field -> substrings to match against (lowercased) table header text.
-// Kept loose on purpose: this is a Drupal Views table and exact header
-// wording/markup can shift without the underlying data changing.
-const HEADER_ALIASES = {
-  caseName: ['case name'],
-  caseNumber: ['case number'],
-  dateFiled: ['date filed'],
-  caseType: ['case type', 'type of case'],
-  status: ['status'],
-  location: ['location', 'city'],
-  region: ['region'],
-};
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function normalizeHeader(text) {
-  return text.trim().toLowerCase().replace(/\s+/g, ' ');
-}
-
-function buildColumnMap(headerTexts) {
-  const headers = headerTexts.map(normalizeHeader);
-  const map = {};
-  for (const [field, aliases] of Object.entries(HEADER_ALIASES)) {
-    const idx = headers.findIndex((h) => aliases.some((a) => h.includes(a)));
-    if (idx !== -1) map[field] = idx;
-  }
-  return map;
-}
-
-function caseUrl(caseNumber) {
-  return `https://www.nlrb.gov/case/${encodeURIComponent(caseNumber)}`;
-}
-
 async function fetchPage(pageIndex) {
   const url = new URL(BASE_URL);
-  url.searchParams.set('items_per_page', String(ITEMS_PER_PAGE));
-  url.searchParams.set('sort_by', 'date_filed');
-  url.searchParams.set('sort_order', 'DESC');
   url.searchParams.set('page', String(pageIndex));
 
   const res = await fetch(url, {
@@ -61,79 +31,88 @@ async function fetchPage(pageIndex) {
   return res.text();
 }
 
+// Case numbers follow "<region>-<caseType>-<sequence>", e.g. "14-CA-391624".
+// The middle segment is NLRB's own case-type code (CA, CB, RC, RM, RD, UD, UC, AC, ...).
+function caseTypeFromCaseNumber(caseNumber) {
+  const match = caseNumber.match(/^\d+-([A-Z]+)-\d+$/);
+  return match ? match[1] : '';
+}
+
+function caseUrl(caseNumber) {
+  return `https://www.nlrb.gov/case/${encodeURIComponent(caseNumber)}`;
+}
+
 /**
- * Scans every <table> on the page for one whose header row matches at least
- * caseName + caseNumber + dateFiled, then extracts its body rows.
+ * Each `.rer-style-1` div looks like `<b>Label</b>: value` (value may
+ * contain a link, e.g. the Case Number field). Returns { label, value, href }.
  */
+function parseFieldDiv($, el) {
+  const $el = $(el);
+  const label = $el.find('b').first().text().trim();
+  const href = $el.find('a').first().attr('href');
+  const $clone = $el.clone();
+  $clone.find('b').remove();
+  const value = $clone.text().trim().replace(/^:\s*/, '');
+  return { label, value, href };
+}
+
 function parseRows(html) {
   const $ = cheerio.load(html);
-  let rows = [];
-  let tableFound = false;
+  const cards = $('.rer-content').toArray();
+  const rows = [];
 
-  $('table').each((_, table) => {
-    if (tableFound) return; // already found the right table
-    const $table = $(table);
-    const headerCells = $table
-      .find('thead th, thead td')
-      .toArray()
-      .map((el) => $(el).text());
-    const headerRow = headerCells.length
-      ? headerCells
-      : $table
-          .find('tr')
-          .first()
-          .find('th, td')
-          .toArray()
-          .map((el) => $(el).text());
+  for (const card of cards) {
+    const $card = $(card);
+    const caseName = $card.find('.rer-head h3').first().text().trim();
 
-    const columnMap = buildColumnMap(headerRow);
-    const requiredPresent = ['caseName', 'caseNumber', 'dateFiled'].every(
-      (f) => columnMap[f] !== undefined
-    );
-    if (!requiredPresent) return;
+    const fields = {};
+    $card.find('.rer-style-row-1 .rer-style-1, .rer-style-row-2 .rer-style-1').each((_, el) => {
+      const { label, value, href } = parseFieldDiv($, el);
+      if (!label) return;
+      fields[label] = { value, href };
+    });
 
-    tableFound = true;
+    const caseNumber = fields['Case Number']?.value ?? '';
+    const dateFiled = fields['Date Filed']?.value ?? '';
+    if (!caseNumber || !caseName || !dateFiled) continue;
 
-    const bodyRows = $table.find('tbody tr').length
-      ? $table.find('tbody tr').toArray()
-      : $table.find('tr').slice(1).toArray();
+    const linkHref = fields['Case Number']?.href;
+    const url = linkHref ? new URL(linkHref, 'https://www.nlrb.gov').toString() : caseUrl(caseNumber);
 
-    for (const tr of bodyRows) {
-      const cells = $(tr).find('td, th').toArray();
-      if (cells.length === 0) continue;
+    rows.push({
+      source: id,
+      sourceLabel: label,
+      caseName,
+      caseNumber,
+      dateFiled,
+      caseType: caseTypeFromCaseNumber(caseNumber),
+      status: fields['Status']?.value ?? '',
+      location: fields['Location']?.value ?? '',
+      region: fields['Region Assigned']?.value ?? '',
+      url,
+    });
+  }
 
-      const cellText = (field) =>
-        columnMap[field] !== undefined ? $(cells[columnMap[field]]).text().trim() : '';
+  return { rows, cardsFound: cards.length };
+}
 
-      const caseNumber = cellText('caseNumber');
-      const caseName = cellText('caseName');
-      const dateFiled = cellText('dateFiled');
-      if (!caseNumber || !caseName || !dateFiled) continue;
+/**
+ * Builds a short, human-readable dump of the page for debugging a parse
+ * failure from the Actions log alone.
+ */
+function describePageForDiagnostics(html) {
+  const $ = cheerio.load(html);
+  const title = $('title').text().trim();
+  const $bodyOnly = cheerio.load(html);
+  $bodyOnly('script, style, noscript').remove();
+  const bodyPreview = $bodyOnly('body').text().trim().replace(/\s+/g, ' ').slice(0, 500);
 
-      const linkHref =
-        columnMap.caseNumber !== undefined
-          ? $(cells[columnMap.caseNumber]).find('a').attr('href')
-          : undefined;
-      const url = linkHref
-        ? new URL(linkHref, 'https://www.nlrb.gov').toString()
-        : caseUrl(caseNumber);
-
-      rows.push({
-        source: id,
-        sourceLabel: label,
-        caseName,
-        caseNumber,
-        dateFiled,
-        caseType: cellText('caseType'),
-        status: cellText('status'),
-        location: cellText('location'),
-        region: cellText('region'),
-        url,
-      });
-    }
-  });
-
-  return { rows, tableFound };
+  return [
+    `page title: "${title}"`,
+    `.rer-content count: ${$('.rer-content').length}`,
+    `<table> count: ${$('table').length}`,
+    `body text preview: "${bodyPreview}"`,
+  ].join('\n');
 }
 
 /**
@@ -152,12 +131,13 @@ export async function fetchFilings({ seenCaseNumbers }) {
     if (page > 0) await sleep(PAGE_DELAY_MS);
 
     const html = await fetchPage(page);
-    const { rows, tableFound } = parseRows(html);
+    const { rows, cardsFound } = parseRows(html);
 
-    if (!tableFound) {
+    if (cardsFound === 0) {
       if (page === 0) {
         throw new Error(
-          'Could not locate the filings table on the NLRB recent-filings page — the page structure may have changed.'
+          'Found no filing cards (.rer-content) on the NLRB recent-filings page — the page structure may have changed.\n' +
+            describePageForDiagnostics(html)
         );
       }
       break;

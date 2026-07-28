@@ -1,5 +1,7 @@
 {
-  "ok": false,
-  "checkedAt": "2026-07-28T20:47:03.283Z",
-  "error": "Could not locate the filings table on the NLRB recent-filings page — the page structure may have changed."
+  "ok": true,
+  "checkedAt": "2026-07-28T20:59:45.343Z",
+  "records": [],
+  "bootstrap": true,
+  "seededCount": 200
 }
