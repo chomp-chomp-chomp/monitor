@@ -1,5 +1,30 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-28T21:15:17.953Z",
-  "records": []
+  "checkedAt": "2026-07-28T21:26:51.649Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "NALC Local 450 (United States Postal Service)",
+      "caseNumber": "19-CB-391679",
+      "dateFiled": "07/28/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Bellingham, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-391679"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "19-CA-391677",
+      "dateFiled": "07/28/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Bellingham, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-391677"
+    }
+  ]
 }
