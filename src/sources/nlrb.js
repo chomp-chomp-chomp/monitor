@@ -66,6 +66,18 @@ async function fetchPage(pageIndex) {
  * on the page, so a parse failure is debuggable from the Actions log alone
  * rather than requiring someone to reproduce it with a browser.
  */
+function attrSummary(el, $) {
+  const $el = $(el);
+  const id = $el.attr('id');
+  const cls = $el.attr('class');
+  const domId = $el.attr('data-drupal-views-dom-id');
+  const parts = [el.tagName];
+  if (id) parts.push(`id="${id}"`);
+  if (cls) parts.push(`class="${cls}"`);
+  if (domId) parts.push(`data-drupal-views-dom-id="${domId}"`);
+  return parts.join(' ');
+}
+
 function describePageForDiagnostics(html) {
   const $ = cheerio.load(html);
   const title = $('title').text().trim();
@@ -95,12 +107,48 @@ function describePageForDiagnostics(html) {
       return `  table[${i}]: ${rowCount} rows, headers: [${headers.slice(0, 10).join(' | ')}]`;
     });
 
-  const bodyPreview = $('body').text().trim().replace(/\s+/g, ' ').slice(0, 300);
+  // Strip noise so the body-text preview shows structural/placeholder text,
+  // not inlined CSS/JS.
+  const $bodyOnly = cheerio.load(html);
+  $bodyOnly('script, style, noscript').remove();
+  const bodyPreview = $bodyOnly('body').text().trim().replace(/\s+/g, ' ').slice(0, 500);
+
+  // Likely signs of a client-rendered / AJAX-loaded report (common for
+  // Drupal Views blocks): a placeholder container, a views-ajax settings
+  // blob, or a JS framework mount point instead of server-rendered markup.
+  const viewsPlaceholders = $('[data-drupal-views-dom-id], .view, .views-element-container, [id*="view" i], [class*="view" i]')
+    .toArray()
+    .slice(0, 10)
+    .map((el) => `  ${attrSummary(el, $)}`);
+
+  const drupalSettingsScript = $('script[data-drupal-selector="drupal-settings-json"], script#drupal-settings-json').first();
+  let drupalSettingsPreview = '';
+  if (drupalSettingsScript.length) {
+    const raw = drupalSettingsScript.html() ?? '';
+    // views ajax settings (if present) contain exactly what's needed to
+    // replicate the AJAX call: view_name, view_display_id, view_args, etc.
+    const viewsMatch = raw.match(/"views"\s*:\s*\{[\s\S]{0,1500}/);
+    drupalSettingsPreview = viewsMatch ? viewsMatch[0].slice(0, 1500) : raw.slice(0, 500);
+  }
+
+  const scriptSrcs = $('script[src]')
+    .toArray()
+    .map((el) => $(el).attr('src'))
+    .filter((src) => src && !src.includes('googletagmanager'))
+    .slice(0, 15);
+
+  const interestingHints = ['views/ajax', 'jsonapi', '/api/', 'socrata', 'powerbi', 'tableau', '.csv', 'data-view-dom-id']
+    .filter((needle) => html.includes(needle));
 
   return [
     `page title: "${title}"`,
     `<table> count: ${tableCount}`,
     ...tableSummaries,
+    `view/table-ish elements found:`,
+    ...(viewsPlaceholders.length ? viewsPlaceholders : ['  (none)']),
+    `drupalSettings views blob: ${drupalSettingsPreview ? '\n' + drupalSettingsPreview : '(not found)'}`,
+    `external script srcs: ${scriptSrcs.length ? '\n  ' + scriptSrcs.join('\n  ') : '(none)'}`,
+    `interesting substrings present in raw html: [${interestingHints.join(', ') || 'none'}]`,
     `body text preview: "${bodyPreview}"`,
   ].join('\n');
 }
