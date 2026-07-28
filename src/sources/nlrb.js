@@ -62,6 +62,50 @@ async function fetchPage(pageIndex) {
 }
 
 /**
+ * Builds a short, human-readable dump of what tables (if any) are actually
+ * on the page, so a parse failure is debuggable from the Actions log alone
+ * rather than requiring someone to reproduce it with a browser.
+ */
+function describePageForDiagnostics(html) {
+  const $ = cheerio.load(html);
+  const title = $('title').text().trim();
+  const tableCount = $('table').length;
+
+  const tableSummaries = $('table')
+    .toArray()
+    .slice(0, 6)
+    .map((table, i) => {
+      const $table = $(table);
+      const headerCells = $table
+        .find('thead th, thead td')
+        .toArray()
+        .map((el) => $(el).text().trim())
+        .filter(Boolean);
+      const fallbackHeaderCells = headerCells.length
+        ? []
+        : $table
+            .find('tr')
+            .first()
+            .find('th, td')
+            .toArray()
+            .map((el) => $(el).text().trim())
+            .filter(Boolean);
+      const headers = headerCells.length ? headerCells : fallbackHeaderCells;
+      const rowCount = $table.find('tbody tr').length || Math.max($table.find('tr').length - 1, 0);
+      return `  table[${i}]: ${rowCount} rows, headers: [${headers.slice(0, 10).join(' | ')}]`;
+    });
+
+  const bodyPreview = $('body').text().trim().replace(/\s+/g, ' ').slice(0, 300);
+
+  return [
+    `page title: "${title}"`,
+    `<table> count: ${tableCount}`,
+    ...tableSummaries,
+    `body text preview: "${bodyPreview}"`,
+  ].join('\n');
+}
+
+/**
  * Scans every <table> on the page for one whose header row matches at least
  * caseName + caseNumber + dateFiled, then extracts its body rows.
  */
@@ -157,7 +201,8 @@ export async function fetchFilings({ seenCaseNumbers }) {
     if (!tableFound) {
       if (page === 0) {
         throw new Error(
-          'Could not locate the filings table on the NLRB recent-filings page — the page structure may have changed.'
+          'Could not locate the filings table on the NLRB recent-filings page — the page structure may have changed.\n' +
+            describePageForDiagnostics(html)
         );
       }
       break;
