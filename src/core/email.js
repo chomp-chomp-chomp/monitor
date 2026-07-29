@@ -44,15 +44,19 @@ function recordsTableHtml(records) {
     </table>`;
 }
 
-function buildNewFilingsHtml(groups) {
+function buildNewFilingsHtml(groups, dashboardUrl) {
   const sections = groups
     .map(
       (g) => `
       <h2 style="font-family:sans-serif;">${escapeHtml(g.sourceLabel)} — ${g.records.length} new filing${g.records.length === 1 ? '' : 's'}</h2>
+      ${g.sourceUrl ? `<p style="font-family:sans-serif;font-size:13px;"><a href="${escapeHtml(g.sourceUrl)}">View source report on ${escapeHtml(g.sourceLabel)} &rarr;</a></p>` : ''}
       ${recordsTableHtml(g.records)}`
     )
     .join('<br/>');
-  return `<div>${sections}</div>`;
+  const dashboardLink = dashboardUrl
+    ? `<p style="font-family:sans-serif;font-size:13px;"><a href="${escapeHtml(dashboardUrl)}">View dashboard &rarr;</a></p>`
+    : '';
+  return `<div>${sections}<br/>${dashboardLink}</div>`;
 }
 
 function base64(str) {
@@ -76,10 +80,10 @@ async function sendViaResend({ apiKey, from, to, subject, html, attachments }) {
 }
 
 /**
- * @param {{sourceId: string, sourceLabel: string, records: object[]}[]} groups
+ * @param {{sourceId: string, sourceLabel: string, sourceUrl?: string, records: object[]}[]} groups
  */
 export async function sendNewFilingsEmail(groups, env) {
-  const { RESEND_API_KEY, NOTIFY_EMAIL_TO, NOTIFY_EMAIL_FROM } = env;
+  const { RESEND_API_KEY, NOTIFY_EMAIL_TO, NOTIFY_EMAIL_FROM, DASHBOARD_URL } = env;
   if (!RESEND_API_KEY || !NOTIFY_EMAIL_TO || !NOTIFY_EMAIL_FROM) {
     throw new Error(
       'Missing RESEND_API_KEY, NOTIFY_EMAIL_TO, or NOTIFY_EMAIL_FROM environment variables'
@@ -99,7 +103,7 @@ export async function sendNewFilingsEmail(groups, env) {
     from: NOTIFY_EMAIL_FROM,
     to: NOTIFY_EMAIL_TO,
     subject: `${totalNew} new filing${totalNew === 1 ? '' : 's'} — ${sourceNames}`,
-    html: buildNewFilingsHtml(groups),
+    html: buildNewFilingsHtml(groups, DASHBOARD_URL),
     attachments: [
       {
         filename: `new-filings-${date}.csv`,

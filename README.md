@@ -19,10 +19,15 @@ hours (6x/day) and, for each registered source:
    (`data/archive/<source>/<YYYY-MM-DD>.json`), and regenerates a browsable
    HTML archive under `docs/archive/<source>/`.
 4. Regenerates the dashboard (`docs/index.html`) — always current, updated
-   every run regardless of whether anything new was found.
+   every run regardless of whether anything new was found. Besides "new this
+   check," it shows a **Recently seen** panel (last 25 archived filings,
+   with a "view more" link to the last 100) so there's always something to
+   look at even on a quiet run. All displayed timestamps are in US Eastern
+   time.
 5. Sends **one** email (via [Resend](https://resend.com)) only if at least
    one source has new filings — quiet runs send nothing. The email has a
-   readable HTML table plus a CSV attachment of the new rows.
+   readable HTML table, a CSV attachment of the new rows, and links back to
+   both the source's public report page and the dashboard.
 6. Commits and pushes the changed `data/` and `docs/` files back to the
    branch the workflow ran on.
 
@@ -37,9 +42,11 @@ failed, so a failure is never silent even if email delivery is broken too.
 The very first time a source runs, there's no ledger yet, so there's no
 sensible "new" to report — everything on the page is, from the monitor's
 perspective, pre-existing. That first run seeds the ledger with whatever's
-on the first page of results and sends **no** notification. Every run after
-that behaves normally. This avoids a first-run email blast of the site's
-entire recent history.
+on the first page of results and sends **no** notification, but it *does*
+archive those filings (they're real, just not "new" as of right now) so
+they show up in "Recently seen" and the archive like anything else. Every
+run after that behaves normally. This avoids a first-run email blast of the
+site's entire recent history.
 
 ## One-time setup
 
@@ -53,12 +60,22 @@ Add these under Settings → Secrets and variables → Actions:
 | `NOTIFY_EMAIL_FROM` | Sender address, e.g. `Filings Monitor <onboarding@resend.dev>`. Without a verified domain in Resend, you're limited to the `onboarding@resend.dev` sender and to sending to the email address on your Resend account. |
 | `NOTIFY_EMAIL_TO` | Where notifications go, e.g. `dboman@gmail.com`. |
 
+Optionally, add a repository **variable** (Settings → Secrets and variables →
+Actions → Variables tab, not Secrets — it's not sensitive) named
+`DASHBOARD_URL` if your Pages URL differs from the default baked into the
+workflow (`https://chomp-chomp-chomp.github.io/monitor/`). It's only used to
+build the "View dashboard" link in notification emails.
+
 ### 2. GitHub Pages
 
 Settings → Pages → Deploy from a branch → select this branch (or `main`,
-once merged) and `/docs`. The dashboard will be live at the resulting
-`*.github.io` URL (or your custom domain) once the workflow has run at
-least once and committed a `docs/index.html`.
+once merged) and **`/docs`** — not `/ (root)`. This matters: if the source
+is left at the repo root, GitHub Pages falls back to rendering `README.md`
+as the homepage (since there's no `index.html` there), which looks like the
+dashboard is broken when it's actually just misconfigured. The real
+dashboard will be live at the resulting `*.github.io` URL (or your custom
+domain) once the workflow has run at least once and committed a
+`docs/index.html`.
 
 ### 3. Merge to the default branch
 

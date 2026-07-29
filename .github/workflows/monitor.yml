@@ -36,6 +36,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
           NOTIFY_EMAIL_FROM: ${{ secrets.NOTIFY_EMAIL_FROM }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL || 'https://chomp-chomp-chomp.github.io/monitor/' }}
         run: npm start
 
       - name: Commit and push updated data/dashboard
