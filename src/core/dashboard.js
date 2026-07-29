@@ -1,8 +1,11 @@
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import path from 'node:path';
+import { formatEastern } from './format.js';
 
 const DOCS_DIR = path.resolve('docs');
 const ARCHIVE_DIR = path.resolve('data/archive');
+const RECENTLY_SEEN_PREVIEW = 25;
+const RECENTLY_SEEN_FULL = 100;
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -42,8 +45,8 @@ ${body}
 `;
 }
 
-function recordsTable(records) {
-  if (records.length === 0) return '<p class="empty">No new filings as of the last check.</p>';
+function recordsTable(records, { emptyText = 'No new filings as of the last check.', showPickedUp = false } = {}) {
+  if (records.length === 0) return `<p class="empty">${escapeHtml(emptyText)}</p>`;
   const rows = records
     .map(
       (r) => `<tr>
@@ -54,11 +57,12 @@ function recordsTable(records) {
         <td>${escapeHtml(r.status)}</td>
         <td>${escapeHtml(r.location)}</td>
         <td>${escapeHtml(r.region)}</td>
+        ${showPickedUp ? `<td>${escapeHtml(r.archivedAt ? formatEastern(r.archivedAt) : '')}</td>` : ''}
       </tr>`
     )
     .join('');
   return `<table>
-    <thead><tr><th>Case Name</th><th>Case Number</th><th>Date Filed</th><th>Case Type</th><th>Status</th><th>Location</th><th>Region</th></tr></thead>
+    <thead><tr><th>Case Name</th><th>Case Number</th><th>Date Filed</th><th>Case Type</th><th>Status</th><th>Location</th><th>Region</th>${showPickedUp ? '<th>Picked Up</th>' : ''}</tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
 }
@@ -66,13 +70,15 @@ function recordsTable(records) {
 /**
  * @param {{id: string, label: string}[]} sources
  * @param {Record<string, object|null>} latestBySource
+ * @param {Record<string, object[]>} recentBySource - up to RECENTLY_SEEN_PREVIEW records per source, newest first
  */
-export async function generateDashboard(sources, latestBySource) {
+export async function generateDashboard(sources, latestBySource, recentBySource = {}) {
   await mkdir(DOCS_DIR, { recursive: true });
 
   const sections = sources
     .map((s) => {
       const latest = latestBySource[s.id];
+      const recent = recentBySource[s.id] ?? [];
       if (!latest) {
         return `<h2>${escapeHtml(s.label)}</h2><p class="empty">No data yet.</p>`;
       }
@@ -80,9 +86,13 @@ export async function generateDashboard(sources, latestBySource) {
       const statusText = latest.ok ? 'OK' : `Failed: ${escapeHtml(latest.error ?? 'unknown error')}`;
       return `
         <h2>${escapeHtml(s.label)}</h2>
-        <p class="meta">Last checked: ${escapeHtml(latest.checkedAt)} &middot; <span class="${statusClass}">${statusText}</span></p>
+        <p class="meta">Last checked: ${escapeHtml(formatEastern(latest.checkedAt))} &middot; <span class="${statusClass}">${statusText}</span></p>
         <p><a href="archive/${encodeURIComponent(s.id)}/">Browse full archive &rarr;</a></p>
+        <h3>New this check</h3>
         ${latest.ok ? recordsTable(latest.records ?? []) : ''}
+        <h3>Recently seen</h3>
+        ${recordsTable(recent.slice(0, RECENTLY_SEEN_PREVIEW), { emptyText: 'Nothing archived yet.', showPickedUp: true })}
+        ${recent.length > 0 ? `<p><a href="recent/${encodeURIComponent(s.id)}.html">View more &rarr;</a></p>` : ''}
       `;
     })
     .join('<hr/>');
@@ -90,11 +100,28 @@ export async function generateDashboard(sources, latestBySource) {
   const html = page(
     'Filings Monitor',
     `<h1>Filings Monitor</h1>
-     <p class="meta">Generated ${escapeHtml(new Date().toISOString())}</p>
+     <p class="meta">Generated ${escapeHtml(formatEastern(new Date().toISOString()))}</p>
      ${sections}`
   );
 
   await writeFile(path.join(DOCS_DIR, 'index.html'), html, 'utf8');
+}
+
+/**
+ * Writes a single page listing up to RECENTLY_SEEN_FULL recently-archived
+ * records for a source, for the dashboard's "View more" link.
+ */
+export async function generateRecentPage(sourceId, sourceLabel, recentRecords) {
+  const outDir = path.join(DOCS_DIR, 'recent');
+  await mkdir(outDir, { recursive: true });
+
+  const body = `
+    <h1>${escapeHtml(sourceLabel)} — Recently Seen</h1>
+    <p><a href="../">&larr; Back to dashboard</a></p>
+    <p class="meta">Most recent ${Math.min(recentRecords.length, RECENTLY_SEEN_FULL)} filings picked up by the monitor, newest first.</p>
+    ${recordsTable(recentRecords.slice(0, RECENTLY_SEEN_FULL), { emptyText: 'Nothing archived yet.', showPickedUp: true })}
+  `;
+  await writeFile(path.join(outDir, `${sourceId}.html`), page(`${sourceLabel} — Recently Seen`, body), 'utf8');
 }
 
 /**
@@ -131,7 +158,7 @@ export async function generateArchivePages(sourceId, sourceLabel) {
     const body = `
       <h1>${escapeHtml(sourceLabel)} — ${escapeHtml(day)}</h1>
       <p><a href="index.html">&larr; Back to archive index</a></p>
-      ${recordsTable(records)}
+      ${recordsTable(records, { showPickedUp: true })}
     `;
     await writeFile(path.join(outDir, `${day}.html`), page(`${sourceLabel} — ${day}`, body), 'utf8');
   }

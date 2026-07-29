@@ -4,6 +4,8 @@ export const id = 'nlrb';
 export const label = 'NLRB';
 
 const BASE_URL = 'https://www.nlrb.gov/reports/graphs-data/recent-filings';
+// Public page this source pulls from, for linking out (e.g. from emails/dashboard).
+export const sourceUrl = BASE_URL;
 const USER_AGENT =
   'FilingsMonitorBot/1.0 (+https://github.com/chomp-chomp-chomp/monitor; low-frequency automated public-data check)';
 // Confirmed against a real capture of the page: results are plain

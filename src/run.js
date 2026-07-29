@@ -1,10 +1,12 @@
 import { appendFile } from 'node:fs/promises';
 import { sources } from './sources/index.js';
 import { loadLedger, saveLedger } from './core/ledger.js';
-import { appendToArchive } from './core/archive.js';
+import { appendToArchive, getRecentRecords } from './core/archive.js';
 import { saveLatest } from './core/latest.js';
-import { generateDashboard, generateArchivePages } from './core/dashboard.js';
+import { generateDashboard, generateArchivePages, generateRecentPage } from './core/dashboard.js';
 import { sendNewFilingsEmail, sendFailureEmail } from './core/email.js';
+
+const RECENT_RECORDS_LIMIT = 100;
 
 async function summarize(line) {
   console.log(line);
@@ -28,13 +30,16 @@ async function runSource(source) {
       error: err.message,
     });
     await summarize(`- **${source.label}**: FAILED — ${err.message}`);
-    return { source, ok: false, error: err.message, newRecords: [] };
+    return { source, ok: false, error: err.message, newRecords: [], checkedAt: runAt.toISOString() };
   }
 
   if (isBootstrap) {
     const updated = { ...caseNumbers };
     for (const row of rows) updated[row.caseNumber] = runAt.toISOString();
     await saveLedger(source.id, updated);
+    // Bootstrap-discovered filings are real filings too — archive them, just
+    // without treating them as "new" for notification purposes.
+    await appendToArchive(source.id, rows, { runAt });
     await saveLatest(source.id, {
       ok: true,
       checkedAt: runAt.toISOString(),
@@ -46,7 +51,7 @@ async function runSource(source) {
     await summarize(
       `- **${source.label}**: bootstrap run — seeded ${rows.length} existing filings as a baseline, no notification sent.`
     );
-    return { source, ok: true, newRecords: [] };
+    return { source, ok: true, newRecords: [], checkedAt: runAt.toISOString() };
   }
 
   const newRecords = rows.filter((r) => !seenCaseNumbers.has(r.caseNumber));
@@ -66,7 +71,7 @@ async function runSource(source) {
   await generateArchivePages(source.id, source.label);
 
   await summarize(`- **${source.label}**: ${newRecords.length} new filing(s).`);
-  return { source, ok: true, newRecords };
+  return { source, ok: true, newRecords, checkedAt: runAt.toISOString() };
 }
 
 async function main() {
@@ -79,19 +84,30 @@ async function main() {
   }
 
   const latestBySource = {};
+  const recentBySource = {};
   for (const r of results) {
     latestBySource[r.source.id] = r.ok
-      ? { ok: true, checkedAt: new Date().toISOString(), records: r.newRecords }
-      : { ok: false, checkedAt: new Date().toISOString(), error: r.error };
+      ? { ok: true, checkedAt: r.checkedAt, records: r.newRecords }
+      : { ok: false, checkedAt: r.checkedAt, error: r.error };
+
+    const recent = await getRecentRecords(r.source.id, RECENT_RECORDS_LIMIT);
+    recentBySource[r.source.id] = recent;
+    await generateRecentPage(r.source.id, r.source.label, recent);
   }
   await generateDashboard(
     sources.map((s) => ({ id: s.id, label: s.label })),
-    latestBySource
+    latestBySource,
+    recentBySource
   );
 
   const emailGroups = results
     .filter((r) => r.ok && r.newRecords.length > 0)
-    .map((r) => ({ sourceId: r.source.id, sourceLabel: r.source.label, records: r.newRecords }));
+    .map((r) => ({
+      sourceId: r.source.id,
+      sourceLabel: r.source.label,
+      sourceUrl: r.source.sourceUrl,
+      records: r.newRecords,
+    }));
 
   const failures = results
     .filter((r) => !r.ok)
