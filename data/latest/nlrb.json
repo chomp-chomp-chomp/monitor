@@ -1,18 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-30T08:53:13.211Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Seattle Roots Community Health",
-      "caseNumber": "19-RD-391788",
-      "dateFiled": "07/29/2026",
-      "caseType": "RD",
-      "status": "Open",
-      "location": "Seattle, WA",
-      "region": "Region 19, Seattle, Washington",
-      "url": "https://www.nlrb.gov/case/19-RD-391788"
-    }
-  ]
+  "checkedAt": "2026-07-30T12:31:16.420Z",
+  "records": []
 }
