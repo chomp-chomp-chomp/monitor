@@ -232,5 +232,18 @@
     "region": "Region 20, San Francisco, California",
     "url": "https://www.nlrb.gov/case/20-RC-391740",
     "archivedAt": "2026-07-30T00:21:43.569Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Seattle Roots Community Health",
+    "caseNumber": "19-RD-391788",
+    "dateFiled": "07/29/2026",
+    "caseType": "RD",
+    "status": "Open",
+    "location": "Seattle, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-RD-391788",
+    "archivedAt": "2026-07-30T08:53:13.211Z"
   }
 ]
