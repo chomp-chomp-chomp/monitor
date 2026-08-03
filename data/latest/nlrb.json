@@ -1,5 +1,42 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T09:03:24.057Z",
-  "records": []
+  "checkedAt": "2026-08-03T12:59:57.241Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Allegiant Fire Alarm LLC",
+      "caseNumber": "13-RC-391993",
+      "dateFiled": "08/03/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Aurora, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-RC-391993"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Black Olive Kingsport",
+      "caseNumber": "10-CA-391991",
+      "dateFiled": "07/31/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Kingsport, TN",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-391991"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Messer Gas",
+      "caseNumber": "06-CA-391992",
+      "dateFiled": "07/31/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "New Cumberland, WV",
+      "region": "Region 06, Pittsburgh, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/06-CA-391992"
+    }
+  ]
 }
