@@ -1,5 +1,186 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-04T12:34:43.650Z",
-  "records": []
+  "checkedAt": "2026-08-04T16:35:18.177Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Carpenter Latrobe Specialty Metals",
+      "caseNumber": "06-CA-392129",
+      "dateFiled": "08/04/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Latrobe, PA",
+      "region": "Region 06, Pittsburgh, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/06-CA-392129"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "City of Hope Atlanta",
+      "caseNumber": "10-CA-392131",
+      "dateFiled": "08/04/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Newnan, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-392131"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "MultiCare Healthcare System d/b/a MultiCare Good Samaritan Hospital",
+      "caseNumber": "19-CA-392132",
+      "dateFiled": "08/04/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Puyallup, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-392132"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Pediatric Specialty Care d/b/a Henry Avenue Operating Company, LP",
+      "caseNumber": "04-CA-392114",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Philadelphia, PA",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CA-392114"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "NuernbergMesse North America",
+      "caseNumber": "10-CA-392116",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Smyrna, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-392116"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Fred Meyer",
+      "caseNumber": "19-CA-392128",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Eagle River, AK",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-392128"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "15-CA-392122",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Collierville, TN",
+      "region": "Region 15, New Orleans, Louisiana",
+      "url": "https://www.nlrb.gov/case/15-CA-392122"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "SEIU HEALTHCARE 1199NE (Arden Care Center)",
+      "caseNumber": "01-CB-392127",
+      "dateFiled": "08/03/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Hamden, CT",
+      "region": "Region 01, Boston, Massachusetts",
+      "url": "https://www.nlrb.gov/case/01-CB-392127"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "American Postal Workers Union Wenatchee Local 751 (United States Postal Service)",
+      "caseNumber": "19-CB-392130",
+      "dateFiled": "08/03/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Benton City, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-392130"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "\"Road To Hana\" Healthy Living Market",
+      "caseNumber": "03-CA-392113",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "South Burlington, VT",
+      "region": "Region 03, Buffalo, New York",
+      "url": "https://www.nlrb.gov/case/03-CA-392113"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Rural Community Transportation",
+      "caseNumber": "01-RC-392118",
+      "dateFiled": "08/03/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Derby, VT",
+      "region": "Region 01, Boston, Massachusetts",
+      "url": "https://www.nlrb.gov/case/01-RC-392118"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "27-CA-392120",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Jackson, WY",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-392120"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Amerigas",
+      "caseNumber": "01-RC-392119",
+      "dateFiled": "08/03/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Londonderry, NH",
+      "region": "Region 01, Boston, Massachusetts",
+      "url": "https://www.nlrb.gov/case/01-RC-392119"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Emergency Ambulance Service, Inc.",
+      "caseNumber": "21-RC-392137",
+      "dateFiled": "08/03/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Brea, CA",
+      "region": "Region 21, Los Angeles, California",
+      "url": "https://www.nlrb.gov/case/21-RC-392137"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "27-CA-392138",
+      "dateFiled": "08/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Jackson, WY",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-392138"
+    }
+  ]
 }
