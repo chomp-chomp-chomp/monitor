@@ -1,0 +1,93 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Us Post Office Royal Palm Processing & Distribution Center",
+    "caseNumber": "12-CA-392184",
+    "dateFiled": "08/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Opa-locka, FL",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-392184",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "TF Electrical Solutions",
+    "caseNumber": "14-CA-392185",
+    "dateFiled": "08/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Omaha, NE",
+    "region": "Region 14, Saint Louis, Missouri",
+    "url": "https://www.nlrb.gov/case/14-CA-392185",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Laborer's International Union of North America (LiUNA) Local 242 (No Employer)",
+    "caseNumber": "19-CB-392188",
+    "dateFiled": "08/04/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Des Moines, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CB-392188",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Inlandboatmen's Union of the Pacific (IBU) (Foss Maritime Company, LLC)",
+    "caseNumber": "19-CB-392192",
+    "dateFiled": "08/04/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Seattle, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CB-392192",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Dark House Entertainment, Inc. (d/b/a The Basement Escape Room)",
+    "caseNumber": "31-CA-392196",
+    "dateFiled": "08/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Sylmar, CA",
+    "region": "Region 31, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/31-CA-392196",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Bimbo Bakeries USA, Inc.",
+    "caseNumber": "21-CA-392197",
+    "dateFiled": "08/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Placentia, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CA-392197",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Sweet Flower",
+    "caseNumber": "31-RD-392203",
+    "dateFiled": "08/04/2026",
+    "caseType": "RD",
+    "status": "Open",
+    "location": "Pasadena, CA",
+    "region": "Region 31, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/31-RD-392203",
+    "archivedAt": "2026-08-05T01:40:38.925Z"
+  }
+]

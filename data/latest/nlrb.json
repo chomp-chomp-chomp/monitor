@@ -1,138 +1,90 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-04T20:29:18.173Z",
+  "checkedAt": "2026-08-05T01:40:38.925Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Original Entrepreneurs LLC",
-      "caseNumber": "02-CA-392147",
+      "caseName": "Us Post Office Royal Palm Processing & Distribution Center",
+      "caseNumber": "12-CA-392184",
       "dateFiled": "08/04/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Manhattan, NY",
-      "region": "Region 02, New York, New York",
-      "url": "https://www.nlrb.gov/case/02-CA-392147"
+      "location": "Opa-locka, FL",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CA-392184"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "RCN Telecom Services (Lehigh), LLC d/b/a Astound Broadband",
-      "caseNumber": "04-CA-392156",
+      "caseName": "TF Electrical Solutions",
+      "caseNumber": "14-CA-392185",
       "dateFiled": "08/04/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Beech Mountain Lakes, PA",
-      "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-CA-392156"
+      "location": "Omaha, NE",
+      "region": "Region 14, Saint Louis, Missouri",
+      "url": "https://www.nlrb.gov/case/14-CA-392185"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "City of Hope Atlanta",
-      "caseNumber": "10-CA-392161",
-      "dateFiled": "08/04/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Newnan, GA",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-392161"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Kinder Morgan, Inc.",
-      "caseNumber": "21-CA-392149",
-      "dateFiled": "08/04/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Imperial, CA",
-      "region": "Region 21, Los Angeles, California",
-      "url": "https://www.nlrb.gov/case/21-CA-392149"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "National Association of Letter Carriers Branch 5996 (United States Postal Service)",
-      "caseNumber": "27-CB-392176",
+      "caseName": "Laborer's International Union of North America (LiUNA) Local 242 (No Employer)",
+      "caseNumber": "19-CB-392188",
       "dateFiled": "08/04/2026",
       "caseType": "CB",
       "status": "Open",
-      "location": "Greenwood Village, CO",
-      "region": "Region 27, Denver, Colorado",
-      "url": "https://www.nlrb.gov/case/27-CB-392176"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Providence St. Peter Hospital",
-      "caseNumber": "19-CA-392175",
-      "dateFiled": "08/04/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Olympia, WA",
+      "location": "Des Moines, WA",
       "region": "Region 19, Seattle, Washington",
-      "url": "https://www.nlrb.gov/case/19-CA-392175"
+      "url": "https://www.nlrb.gov/case/19-CB-392188"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Volunteer Ministry Center (VMC)",
-      "caseNumber": "10-RM-392172",
+      "caseName": "Inlandboatmen's Union of the Pacific (IBU) (Foss Maritime Company, LLC)",
+      "caseNumber": "19-CB-392192",
       "dateFiled": "08/04/2026",
-      "caseType": "RM",
+      "caseType": "CB",
       "status": "Open",
-      "location": "Knoxville, TN",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-RM-392172"
+      "location": "Seattle, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-392192"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Hotel Boulderado",
-      "caseNumber": "27-CA-392180",
+      "caseName": "Dark House Entertainment, Inc. (d/b/a The Basement Escape Room)",
+      "caseNumber": "31-CA-392196",
       "dateFiled": "08/04/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Boulder, CO",
-      "region": "Region 27, Denver, Colorado",
-      "url": "https://www.nlrb.gov/case/27-CA-392180"
+      "location": "Sylmar, CA",
+      "region": "Region 31, Los Angeles, California",
+      "url": "https://www.nlrb.gov/case/31-CA-392196"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Butterball",
-      "caseNumber": "10-RC-392179",
+      "caseName": "Bimbo Bakeries USA, Inc.",
+      "caseNumber": "21-CA-392197",
       "dateFiled": "08/04/2026",
-      "caseType": "RC",
+      "caseType": "CA",
       "status": "Open",
-      "location": "Raeford, NC",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-RC-392179"
+      "location": "Placentia, CA",
+      "region": "Region 21, Los Angeles, California",
+      "url": "https://www.nlrb.gov/case/21-CA-392197"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "LGE AND KU ENERGY LLC",
-      "caseNumber": "10-RD-392151",
+      "caseName": "Sweet Flower",
+      "caseNumber": "31-RD-392203",
       "dateFiled": "08/04/2026",
       "caseType": "RD",
       "status": "Open",
-      "location": "Atlanta, GA",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-RD-392151"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "US Foods",
-      "caseNumber": "14-CA-392183",
-      "dateFiled": "08/04/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Breckenridge Hills, MO",
-      "region": "Region 14, Saint Louis, Missouri",
-      "url": "https://www.nlrb.gov/case/14-CA-392183"
+      "location": "Pasadena, CA",
+      "region": "Region 31, Los Angeles, California",
+      "url": "https://www.nlrb.gov/case/31-RD-392203"
     }
   ]
 }
