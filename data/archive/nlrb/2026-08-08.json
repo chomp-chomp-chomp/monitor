@@ -1,0 +1,41 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "National Association of Letter Carriers Branch 30 (United States Postal Service)",
+    "caseNumber": "14-CB-392441",
+    "dateFiled": "08/07/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Kansas City, MO",
+    "region": "Region 14, Saint Louis, Missouri",
+    "url": "https://www.nlrb.gov/case/14-CB-392441",
+    "archivedAt": "2026-08-08T00:10:22.557Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Jensen Jensen and Associates Limited",
+    "caseNumber": "19-CA-392440",
+    "dateFiled": "08/07/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Seattle, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-392440",
+    "archivedAt": "2026-08-08T00:10:22.557Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Costco",
+    "caseNumber": "20-RC-392439",
+    "dateFiled": "08/07/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Kailua Kona, HI",
+    "region": "Region 20, San Francisco, California",
+    "url": "https://www.nlrb.gov/case/20-RC-392439",
+    "archivedAt": "2026-08-08T00:10:22.557Z"
+  }
+]
