@@ -1,0 +1,93 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "HEALTHCARE SERVICES GROUP - BURLINGTON HOUSE",
+    "caseNumber": "09-CA-393182",
+    "dateFiled": "08/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Cincinnati, OH",
+    "region": "Region 09, Cincinnati, Ohio",
+    "url": "https://www.nlrb.gov/case/09-CA-393182",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Zum Student Transportation",
+    "caseNumber": "25-CA-393186",
+    "dateFiled": "08/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Rockford, IL",
+    "region": "Region 25, Indianapolis, Indiana",
+    "url": "https://www.nlrb.gov/case/25-CA-393186",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "The Jonathan Club",
+    "caseNumber": "21-CA-393187",
+    "dateFiled": "08/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Los Angeles, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CA-393187",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "THAI SUMMIT CORPORATION",
+    "caseNumber": "09-RC-393188",
+    "dateFiled": "08/19/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Bardstown, KY",
+    "region": "Region 09, Cincinnati, Ohio",
+    "url": "https://www.nlrb.gov/case/09-RC-393188",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United Domestic Workers",
+    "caseNumber": "21-CA-393194",
+    "dateFiled": "08/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "San Diego, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CA-393194",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Weber Distribution, LLC, d/b/a Weber Logistics",
+    "caseNumber": "21-CA-393198",
+    "dateFiled": "08/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Santa Fe Springs, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CA-393198",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Salado Isolation Mining Contractors (SIMCO)",
+    "caseNumber": "28-CA-393200",
+    "dateFiled": "08/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Carlsbad, NM",
+    "region": "Region 28, Phoenix, Arizona",
+    "url": "https://www.nlrb.gov/case/28-CA-393200",
+    "archivedAt": "2026-08-20T00:06:20.245Z"
+  }
+]
