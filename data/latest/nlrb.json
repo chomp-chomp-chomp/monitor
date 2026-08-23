@@ -1,5 +1,18 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-23T12:03:56.956Z",
-  "records": []
+  "checkedAt": "2026-08-23T16:03:32.965Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "shakeout-Augpatchrelprod",
+      "caseNumber": "10-CA-393367",
+      "dateFiled": "08/23/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Atlanta, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-393367"
+    }
+  ]
 }
