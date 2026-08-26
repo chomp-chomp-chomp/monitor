@@ -1,5 +1,30 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-26T08:12:46.332Z",
-  "records": []
+  "checkedAt": "2026-08-26T12:07:02.084Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Spirit Aerosystems n.d.b. Boeing Company",
+      "caseNumber": "14-CA-393572",
+      "dateFiled": "08/25/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Tulsa, OK",
+      "region": "Region 14, Saint Louis, Missouri",
+      "url": "https://www.nlrb.gov/case/14-CA-393572"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "ExxonMobil Corporation",
+      "caseNumber": "14-CA-393573",
+      "dateFiled": "08/25/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Olathe, KS",
+      "region": "Region 14, Saint Louis, Missouri",
+      "url": "https://www.nlrb.gov/case/14-CA-393573"
+    }
+  ]
 }
