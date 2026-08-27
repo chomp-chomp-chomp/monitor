@@ -986,5 +986,83 @@
     "region": "Region 16, Fort Worth, Texas",
     "url": "https://www.nlrb.gov/case/16-CA-393723",
     "archivedAt": "2026-08-27T19:29:58.035Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Envirite of Illinois, Inc. (Republic Services)",
+    "caseNumber": "13-CA-393734",
+    "dateFiled": "08/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Harvey, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CA-393734",
+    "archivedAt": "2026-08-27T23:06:22.012Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Allegiant Fire Protection, LLC",
+    "caseNumber": "13-CA-393733",
+    "dateFiled": "08/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Aurora, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CA-393733",
+    "archivedAt": "2026-08-27T23:06:22.012Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "The Home Depot, inc.",
+    "caseNumber": "04-CA-393740",
+    "dateFiled": "08/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Lawnside, NJ",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CA-393740",
+    "archivedAt": "2026-08-27T23:06:22.012Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Unite HERE Local 11 (Universal Studios)",
+    "caseNumber": "31-CB-393745",
+    "dateFiled": "08/27/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Los Angeles, CA",
+    "region": "Region 31, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/31-CB-393745",
+    "archivedAt": "2026-08-27T23:06:22.012Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Severn Grove Hospitality / C&C Beachside 1",
+    "caseNumber": "05-CA-393747",
+    "dateFiled": "08/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Annapolis, MD",
+    "region": "Region 05, Baltimore, Maryland",
+    "url": "https://www.nlrb.gov/case/05-CA-393747",
+    "archivedAt": "2026-08-27T23:06:22.012Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Infill Innovation, Inc.",
+    "caseNumber": "21-CA-393752",
+    "dateFiled": "08/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "San Diego, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CA-393752",
+    "archivedAt": "2026-08-27T23:06:22.012Z"
   }
 ]
