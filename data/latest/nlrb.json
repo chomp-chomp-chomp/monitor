@@ -1,5 +1,150 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-01T08:59:47.230Z",
-  "records": []
+  "checkedAt": "2026-09-01T15:44:52.821Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "American Postal Worker Union (United States Postal Service)",
+      "caseNumber": "12-CB-393952",
+      "dateFiled": "09/01/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Caguas, PR",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CB-393952"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "American Postal Workers Union Local 7035 (United States Postal Service)",
+      "caseNumber": "10-CB-393964",
+      "dateFiled": "09/01/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Greensboro, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CB-393964"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Univar Solutions, Inc.",
+      "caseNumber": "01-RC-393962",
+      "dateFiled": "09/01/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Providence, RI",
+      "region": "Region 01, Boston, Massachusetts",
+      "url": "https://www.nlrb.gov/case/01-RC-393962"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Delta Star",
+      "caseNumber": "10-CA-393949",
+      "dateFiled": "09/01/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Lynchburg, VA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-393949"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "American Postal Workers Union (United States Postal Service)",
+      "caseNumber": "10-CB-393971",
+      "dateFiled": "09/01/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Raleigh, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CB-393971"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "National Rural Letter Carriers' Association NRLCA(United States Postal Service)",
+      "caseNumber": "10-CB-393969",
+      "dateFiled": "09/01/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Durham, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CB-393969"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Teamsters Local Union 115 (Republic Services)",
+      "caseNumber": "04-CB-393966",
+      "dateFiled": "09/01/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Philadelphia, PA",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CB-393966"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "10-CA-393970",
+      "dateFiled": "09/01/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Durham, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-393970"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "10-CA-393977",
+      "dateFiled": "09/01/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Raleigh, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-393977"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Woodward, Inc.",
+      "caseNumber": "13-CA-393979",
+      "dateFiled": "09/01/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Niles, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-CA-393979"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "We Drive U",
+      "caseNumber": "13-CA-393976",
+      "dateFiled": "09/01/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Chicago, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-CA-393976"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Glacier NW, Inc A CALPORTLAND COMPANY",
+      "caseNumber": "19-CA-393931",
+      "dateFiled": "08/31/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "DuPont, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-393931"
+    }
+  ]
 }
