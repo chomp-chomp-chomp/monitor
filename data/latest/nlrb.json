@@ -1,102 +1,114 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-02T19:05:01.685Z",
+  "checkedAt": "2026-09-02T22:08:19.711Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "1199C SEIU (Complete Care Marcella)",
-      "caseNumber": "04-CB-394068",
+      "caseName": "Metz Culinary Management",
+      "caseNumber": "05-CA-394103",
+      "dateFiled": "09/02/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Washington, DC",
+      "region": "Region 05, Baltimore, Maryland",
+      "url": "https://www.nlrb.gov/case/05-CA-394103"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Union Agents United (UAU) (Hawai’i Nurses’ Association, OPEIU Local 50, AFL-CIO)",
+      "caseNumber": "20-CB-394107",
       "dateFiled": "09/02/2026",
       "caseType": "CB",
       "status": "Open",
-      "location": "Iselin, NJ",
-      "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-CB-394068"
+      "location": "Honolulu, HI",
+      "region": "Region 20, San Francisco, California",
+      "url": "https://www.nlrb.gov/case/20-CB-394107"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Songer Steel Services Inc",
-      "caseNumber": "25-CA-394069",
+      "caseName": "Oklahoma Postal Workers Union (United States Postal Service)",
+      "caseNumber": "14-CB-394106",
       "dateFiled": "09/02/2026",
-      "caseType": "CA",
+      "caseType": "CB",
       "status": "Open",
-      "location": "Burns Harbor, IN",
-      "region": "Region 25, Indianapolis, Indiana",
-      "url": "https://www.nlrb.gov/case/25-CA-394069"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Western Specialty Contractors",
-      "caseNumber": "14-CA-394072",
-      "dateFiled": "09/02/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Saint Louis, MO",
+      "location": "Tulsa, OK",
       "region": "Region 14, Saint Louis, Missouri",
-      "url": "https://www.nlrb.gov/case/14-CA-394072"
+      "url": "https://www.nlrb.gov/case/14-CB-394106"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Bartenders Union Local 165, UNITE HERE (NAV-LVH, LLC d/b/a Westgate Las Vegas Resort & Casino)",
-      "caseNumber": "28-CB-394079",
-      "dateFiled": "09/02/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Las Vegas, NV",
-      "region": "Region 28, Phoenix, Arizona",
-      "url": "https://www.nlrb.gov/case/28-CB-394079"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "UNITE HERE Local 274 (SDH Education East, LLC (Sodexo) at Lehigh University)",
-      "caseNumber": "04-CB-394085",
-      "dateFiled": "09/02/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Bethlehem, PA",
-      "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-CB-394085"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "EWC Growth Partners LLC d/b/a European Wax Center",
-      "caseNumber": "13-CA-394089",
+      "caseName": "Press and Plow Lindsey LLC",
+      "caseNumber": "14-CA-394101",
       "dateFiled": "09/02/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-394089"
+      "location": "Norman, OK",
+      "region": "Region 14, Saint Louis, Missouri",
+      "url": "https://www.nlrb.gov/case/14-CA-394101"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "United Steelworkers Local 7600 (Kaiser Foundation Hospital)",
-      "caseNumber": "31-CB-394090",
-      "dateFiled": "09/02/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Fontana, CA",
-      "region": "Region 31, Los Angeles, California",
-      "url": "https://www.nlrb.gov/case/31-CB-394090"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Qualawash Holdings LLC, a Depot Connect Company",
-      "caseNumber": "13-CA-394088",
+      "caseName": "United States Postal Service",
+      "caseNumber": "10-CA-394102",
       "dateFiled": "09/02/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-394088"
+      "location": "Hopkinsville, KY",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-394102"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "KBT",
+      "caseNumber": "25-CA-394115",
+      "dateFiled": "09/02/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Muncie, IN",
+      "region": "Region 25, Indianapolis, Indiana",
+      "url": "https://www.nlrb.gov/case/25-CA-394115"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United Parcel Service",
+      "caseNumber": "19-CA-394111",
+      "dateFiled": "09/02/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Bend, OR",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-394111"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "General Teamsters Local Union No. 162 (United Parcel Service)",
+      "caseNumber": "19-CB-394112",
+      "dateFiled": "09/02/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Bend, OR",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-394112"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Pepsico Beverages North America",
+      "caseNumber": "21-CA-394116",
+      "dateFiled": "09/02/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Buena Park, CA",
+      "region": "Region 21, Los Angeles, California",
+      "url": "https://www.nlrb.gov/case/21-CA-394116"
     }
   ]
 }
