@@ -232,5 +232,83 @@
     "region": "Region 05, Baltimore, Maryland",
     "url": "https://www.nlrb.gov/case/05-RC-394216",
     "archivedAt": "2026-09-04T15:25:45.439Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Verizon",
+    "caseNumber": "29-CA-394224",
+    "dateFiled": "09/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Brooklyn, NY",
+    "region": "Region 29, Brooklyn, New York",
+    "url": "https://www.nlrb.gov/case/29-CA-394224",
+    "archivedAt": "2026-09-04T18:41:52.582Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Bctgm Local 1(Ferrero USA)",
+    "caseNumber": "13-CB-394230",
+    "dateFiled": "09/04/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Franklin Park, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CB-394230",
+    "archivedAt": "2026-09-04T18:41:52.582Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "SDAC Facilities Services",
+    "caseNumber": "10-CA-394226",
+    "dateFiled": "09/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Chamblee, GA",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CA-394226",
+    "archivedAt": "2026-09-04T18:41:52.582Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Teamsters, Local 455 (Cargill)",
+    "caseNumber": "27-CB-394228",
+    "dateFiled": "09/04/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Fort Morgan, CO",
+    "region": "Region 27, Denver, Colorado",
+    "url": "https://www.nlrb.gov/case/27-CB-394228",
+    "archivedAt": "2026-09-04T18:41:52.582Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "15-CA-394220",
+    "dateFiled": "09/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "New Orleans, LA",
+    "region": "Region 15, New Orleans, Louisiana",
+    "url": "https://www.nlrb.gov/case/15-CA-394220",
+    "archivedAt": "2026-09-04T18:41:52.582Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "AdventHealth Kissimmee",
+    "caseNumber": "12-CA-394237",
+    "dateFiled": "09/04/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Kissimmee, FL",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-394237",
+    "archivedAt": "2026-09-04T18:41:52.582Z"
   }
 ]
