@@ -1,5 +1,5 @@
 {
-  "ok": true,
-  "checkedAt": "2026-09-05T14:12:38.024Z",
-  "records": []
+  "ok": false,
+  "checkedAt": "2026-09-05T17:47:41.930Z",
+  "error": "fetch failed"
 }
