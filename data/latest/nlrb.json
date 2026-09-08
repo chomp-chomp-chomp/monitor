@@ -1,5 +1,30 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-08T08:05:17.903Z",
-  "records": []
+  "checkedAt": "2026-09-08T12:05:53.625Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Main Line Health Inc.",
+      "caseNumber": "04-CA-394258",
+      "dateFiled": "09/08/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Radnor, PA",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CA-394258"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Quanta Computer",
+      "caseNumber": "10-CA-394259",
+      "dateFiled": "09/04/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "La Vergne, TN",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-394259"
+    }
+  ]
 }
