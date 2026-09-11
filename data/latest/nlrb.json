@@ -1,18 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-11T08:05:05.996Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "GXC Inc.",
-      "caseNumber": "19-CA-394611",
-      "dateFiled": "09/10/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Anchorage, AK",
-      "region": "Region 19, Seattle, Washington",
-      "url": "https://www.nlrb.gov/case/19-CA-394611"
-    }
-  ]
+  "checkedAt": "2026-09-11T12:06:07.377Z",
+  "records": []
 }
