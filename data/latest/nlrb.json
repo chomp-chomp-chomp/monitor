@@ -1,5 +1,90 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-12T00:09:16.409Z",
-  "records": []
+  "checkedAt": "2026-09-12T04:03:51.990Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "University of Pittsburgh Physicians (UPP)",
+      "caseNumber": "06-CA-394698",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Pittsburgh, PA",
+      "region": "Region 06, Pittsburgh, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/06-CA-394698"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Frontline Security Inc",
+      "caseNumber": "13-CA-394713",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Mokena, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-CA-394713"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Automatic Building Controls, LLC",
+      "caseNumber": "13-CA-394715",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Rolling Meadows, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-CA-394715"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Providence Health and Services - Oregon dba Providence Willamette Falls Medical Center",
+      "caseNumber": "19-RC-394714",
+      "dateFiled": "09/11/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Oregon City, OR",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-RC-394714"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Starbucks",
+      "caseNumber": "27-CA-394717",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Bountiful, UT",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-394717"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Allied Universal Security Services",
+      "caseNumber": "19-CA-394705",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Bellevue, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-394705"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Saddlebrook Remodeling LLC",
+      "caseNumber": "28-CA-394720",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Marana, AZ",
+      "region": "Region 28, Phoenix, Arizona",
+      "url": "https://www.nlrb.gov/case/28-CA-394720"
+    }
+  ]
 }
