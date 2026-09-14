@@ -1,5 +1,30 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-14T08:05:34.776Z",
-  "records": []
+  "checkedAt": "2026-09-14T12:05:53.336Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "AmeriHealth Caritas",
+      "caseNumber": "10-CA-394724",
+      "dateFiled": "09/14/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Commerce, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-394724"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Lactalis American Group Inc.",
+      "caseNumber": "03-CA-394723",
+      "dateFiled": "09/11/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Buffalo, NY",
+      "region": "Region 03, Buffalo, New York",
+      "url": "https://www.nlrb.gov/case/03-CA-394723"
+    }
+  ]
 }
