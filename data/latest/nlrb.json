@@ -1,5 +1,114 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-21T08:05:24.238Z",
-  "records": []
+  "checkedAt": "2026-09-21T12:05:25.993Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Four Seasons Environmental Inc. / CAS FSE JV LLC",
+      "caseNumber": "10-CA-395259",
+      "dateFiled": "09/21/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Athens, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-395259"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Starbucks Corporation",
+      "caseNumber": "10-RC-395262",
+      "dateFiled": "09/18/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Cary, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-RC-395262"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Kaleida Health",
+      "caseNumber": "03-CA-395261",
+      "dateFiled": "09/18/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Buffalo, NY",
+      "region": "Region 03, Buffalo, New York",
+      "url": "https://www.nlrb.gov/case/03-CA-395261"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "American Postal Workers Union Local 566 (United States Postal Service)",
+      "caseNumber": "10-CB-395260",
+      "dateFiled": "09/18/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "North Charleston, SC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CB-395260"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "International Longshoremen’s Association Local 1423",
+      "caseNumber": "12-CB-395211",
+      "dateFiled": "09/17/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Brunswick, GA",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CB-395211"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Trudy’s Hallmark",
+      "caseNumber": "27-CA-395214",
+      "dateFiled": "09/17/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Fort Collins, CO",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-395214"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "International Longshoremen’s Association Local 1423",
+      "caseNumber": "12-CB-395211",
+      "dateFiled": "09/17/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Brunswick, GA",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CB-395211"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Trudy’s Hallmark",
+      "caseNumber": "27-CA-395214",
+      "dateFiled": "09/17/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Fort Collins, CO",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-395214"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Walt Disney Parks and Resorts, Inc. d/b/a Disney's Grand Californian Hotel",
+      "caseNumber": "21-CA-395210",
+      "dateFiled": "09/17/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Anaheim, CA",
+      "region": "Region 21, Los Angeles, California",
+      "url": "https://www.nlrb.gov/case/21-CA-395210"
+    }
+  ]
 }
