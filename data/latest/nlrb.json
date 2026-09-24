@@ -1,150 +1,30 @@
 {
   "ok": true,
-  "checkedAt": "2026-09-23T20:04:13.082Z",
+  "checkedAt": "2026-09-24T00:09:16.207Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "American Postal Workers Union Greensboro Local-711 (United States Postal Service)",
-      "caseNumber": "10-CB-395531",
-      "dateFiled": "09/23/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Greensboro, NC",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CB-395531"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "United Parcel Service",
-      "caseNumber": "10-CA-395534",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Doraville, GA",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-395534"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Alpha Century Security, Inc.",
-      "caseNumber": "04-CA-395538",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Newtown Square, PA",
-      "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-CA-395538"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "United States Postal Service",
-      "caseNumber": "06-CA-395546",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Pittsburgh, PA",
-      "region": "Region 06, Pittsburgh, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/06-CA-395546"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Astrion, LLC",
-      "caseNumber": "10-CA-395544",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Huntsville, AL",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-395544"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "C.G. Professional Service, Inc",
-      "caseNumber": "13-RM-395545",
-      "dateFiled": "09/23/2026",
-      "caseType": "RM",
-      "status": "Open",
-      "location": "Orland Park, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-RM-395545"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "United State Postal Service",
-      "caseNumber": "14-CA-395551",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Oklahoma City, OK",
-      "region": "Region 14, Saint Louis, Missouri",
-      "url": "https://www.nlrb.gov/case/14-CA-395551"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "FirmaPak",
-      "caseNumber": "06-RC-395555",
+      "caseName": "Starbucks Corporation",
+      "caseNumber": "32-RC-395573",
       "dateFiled": "09/23/2026",
       "caseType": "RC",
       "status": "Open",
-      "location": "Shenango, PA",
-      "region": "Region 06, Pittsburgh, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/06-RC-395555"
+      "location": "Modesto, CA",
+      "region": "Region 32, Oakland, California",
+      "url": "https://www.nlrb.gov/case/32-RC-395573"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "MetroRock Essex, Vertical North LLC",
-      "caseNumber": "03-CA-395556",
+      "caseName": "VHS of Phoenix, Inc. d/b/a Abrazo Central Campus",
+      "caseNumber": "28-CA-395575",
       "dateFiled": "09/23/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Essex Junction, VT",
-      "region": "Region 03, Buffalo, New York",
-      "url": "https://www.nlrb.gov/case/03-CA-395556"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Crete Carrier Corporation d/b/a Shaffer Trucking",
-      "caseNumber": "10-CA-395560",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Lenoir City, TN",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-395560"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Bella Roma",
-      "caseNumber": "25-CA-395557",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Jeffersonville, IN",
-      "region": "Region 25, Indianapolis, Indiana",
-      "url": "https://www.nlrb.gov/case/25-CA-395557"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Rinker Materials",
-      "caseNumber": "27-CA-395559",
-      "dateFiled": "09/23/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Billings, MT",
-      "region": "Region 27, Denver, Colorado",
-      "url": "https://www.nlrb.gov/case/27-CA-395559"
+      "location": "Phoenix, AZ",
+      "region": "Region 28, Phoenix, Arizona",
+      "url": "https://www.nlrb.gov/case/28-CA-395575"
     }
   ]
 }
