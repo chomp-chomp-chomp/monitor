@@ -1,0 +1,80 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Dave Steel Co.",
+    "caseNumber": "10-CA-395749",
+    "dateFiled": "09/25/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Asheville, NC",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CA-395749",
+    "archivedAt": "2026-09-28T12:06:16.628Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Teamsters Local 916 (Health Central LLC)",
+    "caseNumber": "14-CB-395751",
+    "dateFiled": "09/25/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Barry, IL",
+    "region": "Region 14, Saint Louis, Missouri",
+    "url": "https://www.nlrb.gov/case/14-CB-395751",
+    "archivedAt": "2026-09-28T12:06:16.628Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "NALC Local 448(United States Postal Service)",
+    "caseNumber": "10-CB-395750",
+    "dateFiled": "09/25/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Anniston, AL",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CB-395750",
+    "archivedAt": "2026-09-28T12:06:16.628Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Dimensional worldwide",
+    "caseNumber": "22-CA-395708",
+    "dateFiled": "09/24/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Mahwah, NJ",
+    "region": "Region 22, Newark, New Jersey",
+    "url": "https://www.nlrb.gov/case/22-CA-395708",
+    "archivedAt": "2026-09-28T12:06:16.628Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Politics and Prose",
+    "caseNumber": "05-CA-395699",
+    "dateFiled": "09/24/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Washington, DC",
+    "region": "Region 05, Baltimore, Maryland",
+    "url": "https://www.nlrb.gov/case/05-CA-395699",
+    "archivedAt": "2026-09-28T12:06:16.628Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Teamsters Local 63 (Golden State Foods)",
+    "caseNumber": "21-CB-395701",
+    "dateFiled": "09/24/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Industry, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CB-395701",
+    "archivedAt": "2026-09-28T12:06:16.628Z"
+  }
+]
