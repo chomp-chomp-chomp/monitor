@@ -1,126 +1,90 @@
 {
   "ok": true,
-  "checkedAt": "2026-10-09T20:03:55.885Z",
+  "checkedAt": "2026-10-10T00:10:27.371Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Hudson Property Management Services, LLC",
-      "caseNumber": "04-RC-396743",
+      "caseName": "Penn Terminals, LLC f/k/a Penn Terminals, Inc.",
+      "caseNumber": "04-CA-396774",
       "dateFiled": "10/09/2026",
-      "caseType": "RC",
+      "caseType": "CA",
       "status": "Open",
-      "location": "Newark, DE",
+      "location": "Eddystone, PA",
       "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-RC-396743"
+      "url": "https://www.nlrb.gov/case/04-CA-396774"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "HRDE/HFDF WORKERS UNION, AFT LOCAL #4009 (HRDE)",
-      "caseNumber": "06-CB-396756",
+      "caseName": "United States Postal Service",
+      "caseNumber": "14-CA-396777",
+      "dateFiled": "10/09/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Cape Girardeau, MO",
+      "region": "Region 14, Saint Louis, Missouri",
+      "url": "https://www.nlrb.gov/case/14-CA-396777"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Lodge 602 Of International Brotherhood Of Boilermakers, Iron Shipbuilders, Blacksmiths, Forgers, Helpers affiliated With A.F. Of L. and C.I.O.  (Penn Terminals, LLC f/k/a Penn Terminals, Inc.)",
+      "caseNumber": "04-CB-396776",
       "dateFiled": "10/09/2026",
       "caseType": "CB",
       "status": "Open",
-      "location": "Fairmont, WV",
-      "region": "Region 06, Pittsburgh, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/06-CB-396756"
+      "location": "Eddystone, PA",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CB-396776"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Sunbelt Rentals, Inc. - Aries Division",
-      "caseNumber": "25-CA-396750",
+      "caseName": "IUOE Local 302 (Pro-Vac)",
+      "caseNumber": "19-CB-396773",
+      "dateFiled": "10/09/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Kent, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-396773"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Vail Resorts",
+      "caseNumber": "27-CA-396782",
       "dateFiled": "10/09/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Rochester, IN",
-      "region": "Region 25, Indianapolis, Indiana",
-      "url": "https://www.nlrb.gov/case/25-CA-396750"
+      "location": "Keystone, CO",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-396782"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "United States Postal Service",
-      "caseNumber": "13-CA-396760",
+      "caseName": "PacificSource Health Plans",
+      "caseNumber": "19-CA-396781",
       "dateFiled": "10/09/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-396760"
+      "location": "Springfield, OR",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-396781"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Wisconsin Foam Products, Inc.",
-      "caseNumber": "18-CA-396759",
+      "caseName": "Alternative Behavior Strategies, LLC dba ABS Kids",
+      "caseNumber": "27-CA-396785",
       "dateFiled": "10/09/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Madison, WI",
-      "region": "Region 18, Minneapolis, Minnesota",
-      "url": "https://www.nlrb.gov/case/18-CA-396759"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "J's Associates LLC",
-      "caseNumber": "10-CA-396761",
-      "dateFiled": "10/09/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Nashville, TN",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-396761"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Bama Concrete Products Co., Inc.",
-      "caseNumber": "10-CA-396763",
-      "dateFiled": "10/09/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Tuscaloosa, AL",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-396763"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Stanley Tree Service, Inc.",
-      "caseNumber": "01-RC-396764",
-      "dateFiled": "10/09/2026",
-      "caseType": "RC",
-      "status": "Open",
-      "location": "Smithfield, RI",
-      "region": "Region 01, Boston, Massachusetts",
-      "url": "https://www.nlrb.gov/case/01-RC-396764"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "KR Contracting, Inc.",
-      "caseNumber": "05-RC-396754",
-      "dateFiled": "10/09/2026",
-      "caseType": "RC",
-      "status": "Open",
-      "location": "Alexandria, VA",
-      "region": "Region 05, Baltimore, Maryland",
-      "url": "https://www.nlrb.gov/case/05-RC-396754"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "United States Postal Service",
-      "caseNumber": "13-CA-396765",
-      "dateFiled": "10/09/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Forest Park, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-396765"
+      "location": "Syracuse, UT",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CA-396785"
     }
   ]
 }

@@ -1,0 +1,93 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Penn Terminals, LLC f/k/a Penn Terminals, Inc.",
+    "caseNumber": "04-CA-396774",
+    "dateFiled": "10/09/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Eddystone, PA",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CA-396774",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "14-CA-396777",
+    "dateFiled": "10/09/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Cape Girardeau, MO",
+    "region": "Region 14, Saint Louis, Missouri",
+    "url": "https://www.nlrb.gov/case/14-CA-396777",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Lodge 602 Of International Brotherhood Of Boilermakers, Iron Shipbuilders, Blacksmiths, Forgers, Helpers affiliated With A.F. Of L. and C.I.O.  (Penn Terminals, LLC f/k/a Penn Terminals, Inc.)",
+    "caseNumber": "04-CB-396776",
+    "dateFiled": "10/09/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Eddystone, PA",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CB-396776",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "IUOE Local 302 (Pro-Vac)",
+    "caseNumber": "19-CB-396773",
+    "dateFiled": "10/09/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Kent, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CB-396773",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Vail Resorts",
+    "caseNumber": "27-CA-396782",
+    "dateFiled": "10/09/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Keystone, CO",
+    "region": "Region 27, Denver, Colorado",
+    "url": "https://www.nlrb.gov/case/27-CA-396782",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "PacificSource Health Plans",
+    "caseNumber": "19-CA-396781",
+    "dateFiled": "10/09/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Springfield, OR",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-396781",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Alternative Behavior Strategies, LLC dba ABS Kids",
+    "caseNumber": "27-CA-396785",
+    "dateFiled": "10/09/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Syracuse, UT",
+    "region": "Region 27, Denver, Colorado",
+    "url": "https://www.nlrb.gov/case/27-CA-396785",
+    "archivedAt": "2026-10-10T00:10:27.371Z"
+  }
+]
