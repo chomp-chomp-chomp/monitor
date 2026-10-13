@@ -1,5 +1,54 @@
 {
   "ok": true,
-  "checkedAt": "2026-10-13T08:09:59.183Z",
-  "records": []
+  "checkedAt": "2026-10-13T12:06:40.399Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "10-CA-396788",
+      "dateFiled": "10/13/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Jonesboro, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-396788"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Elwood Staffing Services inc.",
+      "caseNumber": "10-CA-396790",
+      "dateFiled": "10/13/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Forest, VA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-396790"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Automated Health System",
+      "caseNumber": "10-CA-396787",
+      "dateFiled": "10/09/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Tuscaloosa, AL",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-396787"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "American Postal Workers Union",
+      "caseNumber": "10-CB-396789",
+      "dateFiled": "10/09/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Atlanta, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CB-396789"
+    }
+  ]
 }
