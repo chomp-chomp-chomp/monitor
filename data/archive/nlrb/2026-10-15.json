@@ -1,0 +1,80 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Oxarc LLC",
+    "caseNumber": "19-CA-396989",
+    "dateFiled": "10/14/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Spokane, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-396989",
+    "archivedAt": "2026-10-15T00:09:11.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "ATG Entertainment",
+    "caseNumber": "07-CA-396992",
+    "dateFiled": "10/14/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Detroit, MI",
+    "region": "Region 07, Detroit, Michigan",
+    "url": "https://www.nlrb.gov/case/07-CA-396992",
+    "archivedAt": "2026-10-15T00:09:11.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Vail Resorts",
+    "caseNumber": "27-CA-396990",
+    "dateFiled": "10/14/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Park City, UT",
+    "region": "Region 27, Denver, Colorado",
+    "url": "https://www.nlrb.gov/case/27-CA-396990",
+    "archivedAt": "2026-10-15T00:09:11.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Luis Ayala Colón  & Sucrs., Inc.",
+    "caseNumber": "12-CA-396991",
+    "dateFiled": "10/14/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Ponce, PR",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-396991",
+    "archivedAt": "2026-10-15T00:09:11.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "MV Transportation",
+    "caseNumber": "20-RC-396999",
+    "dateFiled": "10/14/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Roseville, CA",
+    "region": "Region 20, San Francisco, California",
+    "url": "https://www.nlrb.gov/case/20-RC-396999",
+    "archivedAt": "2026-10-15T00:09:11.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "IAM Local 751 (The Boeing Company)",
+    "caseNumber": "19-CB-397000",
+    "dateFiled": "10/14/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Renton, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CB-397000",
+    "archivedAt": "2026-10-15T00:09:11.790Z"
+  }
+]
