@@ -1,0 +1,93 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Dave’s Trash Removal",
+    "caseNumber": "04-CA-397244",
+    "dateFiled": "10/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Cape May Court House, NJ",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CA-397244",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "12-CA-397230",
+    "dateFiled": "10/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Catano, PR",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-397230",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "12-CA-397252",
+    "dateFiled": "10/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Catano, PR",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-397252",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Ports of the Marine Delaware Trade Association",
+    "caseNumber": "04-CA-397260",
+    "dateFiled": "10/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Philadelphia, PA",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CA-397260",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Leading logistics",
+    "caseNumber": "04-CA-397254",
+    "dateFiled": "10/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Hazleton, PA",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CA-397254",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Beckley Healthcare Center",
+    "caseNumber": "06-CA-397261",
+    "dateFiled": "10/19/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Beckley, WV",
+    "region": "Region 06, Pittsburgh, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/06-CA-397261",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "12-CA-397259",
+    "dateFiled": "10/18/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Catano, PR",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-397259",
+    "archivedAt": "2026-10-19T16:04:11.371Z"
+  }
+]
