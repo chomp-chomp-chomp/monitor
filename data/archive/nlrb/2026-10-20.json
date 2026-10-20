@@ -869,5 +869,31 @@
     "region": "Region 20, San Francisco, California",
     "url": "https://www.nlrb.gov/case/20-CA-397331",
     "archivedAt": "2026-10-20T04:04:11.953Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Cummins CESC",
+    "caseNumber": "25-CB-397394",
+    "dateFiled": "10/20/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Columbus, IN",
+    "region": "Region 25, Indianapolis, Indiana",
+    "url": "https://www.nlrb.gov/case/25-CB-397394",
+    "archivedAt": "2026-10-20T16:04:30.860Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Aramark",
+    "caseNumber": "04-CA-397370",
+    "dateFiled": "10/20/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Wilkes-Barre, PA",
+    "region": "Region 04, Philadelphia, Pennsylvania",
+    "url": "https://www.nlrb.gov/case/04-CA-397370",
+    "archivedAt": "2026-10-20T16:04:30.860Z"
   }
 ]
