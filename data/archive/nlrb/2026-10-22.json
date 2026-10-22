@@ -1,0 +1,54 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Peco Foods, Inc.",
+    "caseNumber": "15-CA-397534",
+    "dateFiled": "10/21/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "West Point, MS",
+    "region": "Region 15, New Orleans, Louisiana",
+    "url": "https://www.nlrb.gov/case/15-CA-397534",
+    "archivedAt": "2026-10-22T00:08:48.585Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Arboretum OH AssetCo  LLC",
+    "caseNumber": "08-RC-397533",
+    "dateFiled": "10/21/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Parma, OH",
+    "region": "Region 08, Cleveland, Ohio",
+    "url": "https://www.nlrb.gov/case/08-RC-397533",
+    "archivedAt": "2026-10-22T00:08:48.585Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "19-CA-397538",
+    "dateFiled": "10/21/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "North Marysville, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-397538",
+    "archivedAt": "2026-10-22T00:08:48.585Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Magnum Management Corporation d/b/a Knott's Berry Farm",
+    "caseNumber": "21-RC-397537",
+    "dateFiled": "10/21/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Buena Park, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-RC-397537",
+    "archivedAt": "2026-10-22T00:08:48.585Z"
+  }
+]
