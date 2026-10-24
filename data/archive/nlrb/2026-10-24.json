@@ -1,0 +1,80 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Chicago Horticultural Society d/b/a Chicago Botanic Gardens",
+    "caseNumber": "13-RC-397738",
+    "dateFiled": "10/23/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Glencoe, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-RC-397738",
+    "archivedAt": "2026-10-24T00:08:58.298Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Albanese Confectionery Group, Inc.",
+    "caseNumber": "13-CA-397739",
+    "dateFiled": "10/23/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Merrillville, IN",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CA-397739",
+    "archivedAt": "2026-10-24T00:08:58.298Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "12-CA-397741",
+    "dateFiled": "10/23/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Toa Baja, PR",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-397741",
+    "archivedAt": "2026-10-24T00:08:58.298Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Fox Television Stations, LLC d/b/a Fox 32 Chicago",
+    "caseNumber": "13-CA-397740",
+    "dateFiled": "10/23/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Chicago, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CA-397740",
+    "archivedAt": "2026-10-24T00:08:58.298Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Menzies Aviation",
+    "caseNumber": "31-CA-397744",
+    "dateFiled": "10/23/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Los Angeles, CA",
+    "region": "Region 31, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/31-CA-397744",
+    "archivedAt": "2026-10-24T00:08:58.298Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "MultiCare Health System",
+    "caseNumber": "19-RC-397748",
+    "dateFiled": "10/23/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Tacoma, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-RC-397748",
+    "archivedAt": "2026-10-24T00:08:58.298Z"
+  }
+]
