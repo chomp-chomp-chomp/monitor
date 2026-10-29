@@ -1,162 +1,90 @@
 {
   "ok": true,
-  "checkedAt": "2026-10-28T20:03:22.088Z",
+  "checkedAt": "2026-10-29T00:07:35.182Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Michigan Cermak Indiana LLC d/b/a Hiltons at McCormick Place",
-      "caseNumber": "13-CA-398017",
+      "caseName": "United States Postal Service",
+      "caseNumber": "19-CA-398047",
       "dateFiled": "10/28/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-398017"
+      "location": "Springfield, OR",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-398047"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Hilton Management LLC d/b/a Hilton Chicago",
-      "caseNumber": "13-CA-398016",
+      "caseName": "Bottom 2 Top Construction LLC",
+      "caseNumber": "15-CA-398044",
       "dateFiled": "10/28/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-398016"
+      "location": "Biloxi, MS",
+      "region": "Region 15, New Orleans, Louisiana",
+      "url": "https://www.nlrb.gov/case/15-CA-398044"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "RQ Resins",
-      "caseNumber": "06-CA-398006",
+      "caseName": "MultiCare Tacoma General",
+      "caseNumber": "19-CA-398046",
       "dateFiled": "10/28/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Harrison City, PA",
-      "region": "Region 06, Pittsburgh, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/06-CA-398006"
+      "location": "Tacoma, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-398046"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Bakery, Confectionary, Tobacco, and Grain Millers, AFL-CIO, CLC Local 6 (Bimbo Bakeries USA)",
-      "caseNumber": "04-CB-398019",
+      "caseName": "SEIU-USWW (Service Employees International Union - United Service Workers West) (Covenant Aviation Security / GASS SFO)",
+      "caseNumber": "20-CB-398050",
       "dateFiled": "10/28/2026",
       "caseType": "CB",
       "status": "Open",
-      "location": "Horsham, PA",
-      "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-CB-398019"
+      "location": "San Francisco, CA",
+      "region": "Region 20, San Francisco, California",
+      "url": "https://www.nlrb.gov/case/20-CB-398050"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
       "caseName": "Starbucks Corporation",
-      "caseNumber": "13-RC-398033",
-      "dateFiled": "10/28/2026",
-      "caseType": "RC",
-      "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-RC-398033"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Express Appliance Service",
-      "caseNumber": "04-CA-398034",
+      "caseNumber": "19-CA-398058",
       "dateFiled": "10/28/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Pottstown, PA",
-      "region": "Region 04, Philadelphia, Pennsylvania",
-      "url": "https://www.nlrb.gov/case/04-CA-398034"
+      "location": "Seattle, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-398058"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Swipe Out Hunger",
-      "caseNumber": "10-CA-398035",
+      "caseName": "IATSE Local 158 Fresno (IATSE Local 158 Multi employee Hiring/Various Venues)",
+      "caseNumber": "32-CB-398060",
       "dateFiled": "10/28/2026",
-      "caseType": "CA",
+      "caseType": "CB",
       "status": "Open",
-      "location": "Cary, NC",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-398035"
+      "location": "Fresno, CA",
+      "region": "Region 32, Oakland, California",
+      "url": "https://www.nlrb.gov/case/32-CB-398060"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "The Hampton Inn and Homewood Suites by Hilton Chicago Downtown/Magnificent Mile",
-      "caseNumber": "13-CA-398015",
-      "dateFiled": "10/28/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Chicago, IL",
-      "region": "Region 13, Chicago, Illinois",
-      "url": "https://www.nlrb.gov/case/13-CA-398015"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Student Transportation of America (S.T.A)",
-      "caseNumber": "01-RC-398036",
-      "dateFiled": "10/28/2026",
-      "caseType": "RC",
-      "status": "Open",
-      "location": "Griswold, CT",
-      "region": "Region 01, Boston, Massachusetts",
-      "url": "https://www.nlrb.gov/case/01-RC-398036"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Poblocki Paving, LLC",
-      "caseNumber": "18-RC-398031",
-      "dateFiled": "10/28/2026",
-      "caseType": "RC",
-      "status": "Open",
-      "location": "New Berlin, WI",
-      "region": "Region 18, Minneapolis, Minnesota",
-      "url": "https://www.nlrb.gov/case/18-RC-398031"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "IATSE Local 665",
-      "caseNumber": "20-CB-398032",
+      "caseName": "IATSE International Office",
+      "caseNumber": "20-CB-398056",
       "dateFiled": "10/28/2026",
       "caseType": "CB",
       "status": "Open",
       "location": "Honolulu, HI",
       "region": "Region 20, San Francisco, California",
-      "url": "https://www.nlrb.gov/case/20-CB-398032"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "2nd Try, LLC",
-      "caseNumber": "31-CA-398037",
-      "dateFiled": "10/28/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Burbank, CA",
-      "region": "Region 31, Los Angeles, California",
-      "url": "https://www.nlrb.gov/case/31-CA-398037"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Cidan Machinery",
-      "caseNumber": "10-CA-398039",
-      "dateFiled": "10/28/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Peachtree City, GA",
-      "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-398039"
+      "url": "https://www.nlrb.gov/case/20-CB-398056"
     }
   ]
 }
