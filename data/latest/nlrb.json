@@ -1,5 +1,18 @@
 {
   "ok": true,
-  "checkedAt": "2026-10-30T04:03:32.599Z",
-  "records": []
+  "checkedAt": "2026-10-30T08:03:28.532Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Office and Professional Employees International Union",
+      "caseNumber": "10-CB-398154",
+      "dateFiled": "10/30/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Fort Stewart, GA",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CB-398154"
+    }
+  ]
 }

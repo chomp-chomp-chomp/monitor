@@ -531,5 +531,18 @@
     "region": "Region 07, Detroit, Michigan",
     "url": "https://www.nlrb.gov/case/07-RC-398026",
     "archivedAt": "2026-10-30T00:07:36.861Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Office and Professional Employees International Union",
+    "caseNumber": "10-CB-398154",
+    "dateFiled": "10/30/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Fort Stewart, GA",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CB-398154",
+    "archivedAt": "2026-10-30T08:03:28.532Z"
   }
 ]
