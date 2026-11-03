@@ -1,30 +1,102 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-03T16:02:17.119Z",
+  "checkedAt": "2026-11-03T20:02:19.279Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "United Hospital services, LLC",
-      "caseNumber": "25-CA-398364",
+      "caseName": "ILA Local 1883 Clerks & Checkers (Enstructure Wilmington)",
+      "caseNumber": "04-CB-398385",
       "dateFiled": "11/03/2026",
-      "caseType": "CA",
+      "caseType": "CB",
       "status": "Open",
-      "location": "Indianapolis, IN",
-      "region": "Region 25, Indianapolis, Indiana",
-      "url": "https://www.nlrb.gov/case/25-CA-398364"
+      "location": "Wilmington, DE",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CB-398385"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "United States Postal Service",
-      "caseNumber": "10-CA-398367",
+      "caseName": "SEIU Healthcare",
+      "caseNumber": "13-CA-398390",
       "dateFiled": "11/03/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Nashville, TN",
+      "location": "Chicago, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-CA-398390"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Teamsters Local Union 463 (Grocery Haulers INC. GCI)",
+      "caseNumber": "04-CB-398402",
+      "dateFiled": "11/03/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Burlington, NJ",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CB-398402"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Hyde Park Hospitality, LLC",
+      "caseNumber": "04-CA-398399",
+      "dateFiled": "11/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Philadelphia, PA",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CA-398399"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Baldor Specialty Foods",
+      "caseNumber": "04-CA-398406",
+      "dateFiled": "11/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Philadelphia, PA",
+      "region": "Region 04, Philadelphia, Pennsylvania",
+      "url": "https://www.nlrb.gov/case/04-CA-398406"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Eberhard Manufacturing",
+      "caseNumber": "08-CA-398407",
+      "dateFiled": "11/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Strongsville, OH",
+      "region": "Region 08, Cleveland, Ohio",
+      "url": "https://www.nlrb.gov/case/08-CA-398407"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Alamo Drafthouse Cinemas, LLC",
+      "caseNumber": "10-RC-398410",
+      "dateFiled": "11/03/2026",
+      "caseType": "RC",
+      "status": "Open",
+      "location": "Raleigh, NC",
       "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-398367"
+      "url": "https://www.nlrb.gov/case/10-RC-398410"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "SEIU Local 32BJ",
+      "caseNumber": "22-CB-398408",
+      "dateFiled": "11/03/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Cliffside Park, NJ",
+      "region": "Region 22, Newark, New Jersey",
+      "url": "https://www.nlrb.gov/case/22-CB-398408"
     }
   ]
 }
