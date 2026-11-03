@@ -1,5 +1,30 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-03T12:03:32.209Z",
-  "records": []
+  "checkedAt": "2026-11-03T16:02:17.119Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United Hospital services, LLC",
+      "caseNumber": "25-CA-398364",
+      "dateFiled": "11/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Indianapolis, IN",
+      "region": "Region 25, Indianapolis, Indiana",
+      "url": "https://www.nlrb.gov/case/25-CA-398364"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "10-CA-398367",
+      "dateFiled": "11/03/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Nashville, TN",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-398367"
+    }
+  ]
 }
