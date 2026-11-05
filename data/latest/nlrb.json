@@ -1,18 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-05T08:04:00.472Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Tropicana Brands Group",
-      "caseNumber": "21-CA-398545",
-      "dateFiled": "11/04/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Walnut, CA",
-      "region": "Region 21, Los Angeles, California",
-      "url": "https://www.nlrb.gov/case/21-CA-398545"
-    }
-  ]
+  "checkedAt": "2026-11-05T12:03:50.228Z",
+  "records": []
 }
