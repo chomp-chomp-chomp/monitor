@@ -1,5 +1,138 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-16T12:05:47.415Z",
-  "records": []
+  "checkedAt": "2026-11-16T16:03:09.966Z",
+  "records": [
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "12-CA-399212",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Jacksonville, FL",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CA-399212"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "12-CA-399211",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Caguas, PR",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CA-399211"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Alamo Drafthouse City Foundry",
+      "caseNumber": "14-CA-399228",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Saint Louis, MO",
+      "region": "Region 14, Saint Louis, Missouri",
+      "url": "https://www.nlrb.gov/case/14-CA-399228"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "UPS",
+      "caseNumber": "25-CA-399226",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Dubuque, IA",
+      "region": "Region 25, Indianapolis, Indiana",
+      "url": "https://www.nlrb.gov/case/25-CA-399226"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Western Diversified Plastics",
+      "caseNumber": "07-CA-399229",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Mattawan, MI",
+      "region": "Region 07, Detroit, Michigan",
+      "url": "https://www.nlrb.gov/case/07-CA-399229"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "FCA US LLC d/b/a Stellantis US LLC",
+      "caseNumber": "07-CA-399232",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Sterling Heights, MI",
+      "region": "Region 07, Detroit, Michigan",
+      "url": "https://www.nlrb.gov/case/07-CA-399232"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "UAW (FCA US LLC d/b/a Stellantis US LLC)",
+      "caseNumber": "07-CB-399237",
+      "dateFiled": "11/16/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Sterling Heights, MI",
+      "region": "Region 07, Detroit, Michigan",
+      "url": "https://www.nlrb.gov/case/07-CB-399237"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "NALC Branch 217",
+      "caseNumber": "15-CB-399238",
+      "dateFiled": "11/16/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Jackson, MS",
+      "region": "Region 15, New Orleans, Louisiana",
+      "url": "https://www.nlrb.gov/case/15-CB-399238"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "Nando Peri Peri",
+      "caseNumber": "13-CA-399235",
+      "dateFiled": "11/16/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Chicago, IL",
+      "region": "Region 13, Chicago, Illinois",
+      "url": "https://www.nlrb.gov/case/13-CA-399235"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United Parcel Service, Inc.",
+      "caseNumber": "10-CA-399234",
+      "dateFiled": "11/15/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Wilmington, NC",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-399234"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "10-CA-399239",
+      "dateFiled": "11/14/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Kingsport, TN",
+      "region": "Region 10, Atlanta, Georgia",
+      "url": "https://www.nlrb.gov/case/10-CA-399239"
+    }
+  ]
 }
