@@ -1,42 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-18T00:06:18.445Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Athletico Physical Therapy",
-      "caseNumber": "07-CA-399434",
-      "dateFiled": "11/17/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Chesterfield, MI",
-      "region": "Region 07, Detroit, Michigan",
-      "url": "https://www.nlrb.gov/case/07-CA-399434"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "United States Postal Service",
-      "caseNumber": "14-CA-399439",
-      "dateFiled": "11/17/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Salina, KS",
-      "region": "Region 14, Saint Louis, Missouri",
-      "url": "https://www.nlrb.gov/case/14-CA-399439"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Sutter Davis Hospital",
-      "caseNumber": "20-UD-399433",
-      "dateFiled": "11/17/2026",
-      "caseType": "UD",
-      "status": "Open",
-      "location": "Davis, CA",
-      "region": "Region 20, San Francisco, California",
-      "url": "https://www.nlrb.gov/case/20-UD-399433"
-    }
-  ]
+  "checkedAt": "2026-11-18T04:03:13.279Z",
+  "records": []
 }
