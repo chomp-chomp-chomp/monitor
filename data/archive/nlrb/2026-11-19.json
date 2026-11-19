@@ -141,5 +141,31 @@
     "region": "Region 31, Los Angeles, California",
     "url": "https://www.nlrb.gov/case/31-CA-399525",
     "archivedAt": "2026-11-19T00:06:29.070Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Fletcher Jones of Chicago LTD., A Nevada Limited Liability Company DBA Mercedes Benz of Chicago",
+    "caseNumber": "13-CA-399475",
+    "dateFiled": "11/17/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Chicago, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CA-399475",
+    "archivedAt": "2026-11-19T04:03:07.275Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Evergreen Solar Services, E.S.S., LLC",
+    "caseNumber": "13-CA-399481",
+    "dateFiled": "11/17/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Antioch, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CA-399481",
+    "archivedAt": "2026-11-19T04:03:07.275Z"
   }
 ]
