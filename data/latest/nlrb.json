@@ -1,54 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-20T04:03:05.975Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Seattle Indian Health Board",
-      "caseNumber": "19-CA-399623",
-      "dateFiled": "11/19/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Seattle, WA",
-      "region": "Region 19, Seattle, Washington",
-      "url": "https://www.nlrb.gov/case/19-CA-399623"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "SEIU LOCAL 32BJ (C& W Services)",
-      "caseNumber": "01-CB-399607",
-      "dateFiled": "11/19/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Hartford (Town), CT",
-      "region": "Region 01, Boston, Massachusetts",
-      "url": "https://www.nlrb.gov/case/01-CB-399607"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Teamsters Local 838",
-      "caseNumber": "14-CB-399610",
-      "dateFiled": "11/19/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Independence, MO",
-      "region": "Region 14, Saint Louis, Missouri",
-      "url": "https://www.nlrb.gov/case/14-CB-399610"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "Cando Rails and Terminals",
-      "caseNumber": "19-RC-399624",
-      "dateFiled": "11/19/2026",
-      "caseType": "RC",
-      "status": "Open",
-      "location": "Ferndale, WA",
-      "region": "Region 19, Seattle, Washington",
-      "url": "https://www.nlrb.gov/case/19-RC-399624"
-    }
-  ]
+  "checkedAt": "2026-11-20T08:03:25.516Z",
+  "records": []
 }
