@@ -1,0 +1,80 @@
+[
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "shakeoutNOVPatch-2026",
+    "caseNumber": "10-CA-399732",
+    "dateFiled": "11/22/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Atlanta, GA",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CA-399732",
+    "archivedAt": "2026-11-22T16:02:41.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Shakeout testing Nov patch_2",
+    "caseNumber": "10-CA-399733",
+    "dateFiled": "11/22/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Atlanta, GA",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CA-399733",
+    "archivedAt": "2026-11-22T16:02:41.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Solar Turbines Inc",
+    "caseNumber": "21-CA-399730",
+    "dateFiled": "11/20/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "San Diego, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CA-399730",
+    "archivedAt": "2026-11-22T16:02:41.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United Parcel Service",
+    "caseNumber": "19-CA-399729",
+    "dateFiled": "11/20/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Fife, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-399729",
+    "archivedAt": "2026-11-22T16:02:41.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "International Union of Painters and Allied Traders (Freeman Expositions LLC)",
+    "caseNumber": "20-CB-399626",
+    "dateFiled": "11/20/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "San Francisco, CA",
+    "region": "Region 20, San Francisco, California",
+    "url": "https://www.nlrb.gov/case/20-CB-399626",
+    "archivedAt": "2026-11-22T16:02:41.790Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Phoenix V, LLC d/b/a BEI Hawai'i",
+    "caseNumber": "20-CA-399731",
+    "dateFiled": "11/20/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Honolulu, HI",
+    "region": "Region 20, San Francisco, California",
+    "url": "https://www.nlrb.gov/case/20-CA-399731",
+    "archivedAt": "2026-11-22T16:02:41.790Z"
+  }
+]
