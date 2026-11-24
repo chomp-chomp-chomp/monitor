@@ -219,5 +219,57 @@
     "region": "Region 20, San Francisco, California",
     "url": "https://www.nlrb.gov/case/20-CA-399836",
     "archivedAt": "2026-11-24T00:06:07.586Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "National Association of Letter Carriers Branch 11 (United States Postal Service)",
+    "caseNumber": "13-CB-399816",
+    "dateFiled": "11/23/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Riverdale, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CB-399816",
+    "archivedAt": "2026-11-24T04:03:14.572Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "National Association of Letter Carriers Branch 11 (United States Postal Service)",
+    "caseNumber": "13-CB-399816",
+    "dateFiled": "11/23/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Riverdale, IL",
+    "region": "Region 13, Chicago, Illinois",
+    "url": "https://www.nlrb.gov/case/13-CB-399816",
+    "archivedAt": "2026-11-24T04:03:14.572Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "PeaceHealth St. Joseph Medical Center Bellingham",
+    "caseNumber": "19-CA-399839",
+    "dateFiled": "11/23/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Bellingham, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-399839",
+    "archivedAt": "2026-11-24T04:03:14.572Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Providence at Home with Compassus Snohomish",
+    "caseNumber": "19-CA-399841",
+    "dateFiled": "11/23/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Everett, WA",
+    "region": "Region 19, Seattle, Washington",
+    "url": "https://www.nlrb.gov/case/19-CA-399841",
+    "archivedAt": "2026-11-24T04:03:14.572Z"
   }
 ]
