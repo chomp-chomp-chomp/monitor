@@ -271,5 +271,44 @@
     "region": "Region 19, Seattle, Washington",
     "url": "https://www.nlrb.gov/case/19-CA-399841",
     "archivedAt": "2026-11-24T04:03:14.572Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "GPS Hospitality (Burger King #3818)",
+    "caseNumber": "15-CA-399851",
+    "dateFiled": "11/24/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Semmes, AL",
+    "region": "Region 15, New Orleans, Louisiana",
+    "url": "https://www.nlrb.gov/case/15-CA-399851",
+    "archivedAt": "2026-11-24T16:03:09.609Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "ABM Industries Inc.",
+    "caseNumber": "12-CA-399845",
+    "dateFiled": "11/24/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "San Juan, PR",
+    "region": "Region 12, Tampa, Florida",
+    "url": "https://www.nlrb.gov/case/12-CA-399845",
+    "archivedAt": "2026-11-24T16:03:09.609Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "David B. Knight & Associates, Inc., DBA Ole Hickory Pits",
+    "caseNumber": "14-RC-399855",
+    "dateFiled": "11/24/2026",
+    "caseType": "RC",
+    "status": "Open",
+    "location": "Scott City, MO",
+    "region": "Region 14, Saint Louis, Missouri",
+    "url": "https://www.nlrb.gov/case/14-RC-399855",
+    "archivedAt": "2026-11-24T16:03:09.609Z"
   }
 ]
