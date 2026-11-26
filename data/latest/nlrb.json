@@ -1,54 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-26T00:06:11.354Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "NALC (United States Postal Service)",
-      "caseNumber": "19-CB-400041",
-      "dateFiled": "11/25/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Seattle, WA",
-      "region": "Region 19, Seattle, Washington",
-      "url": "https://www.nlrb.gov/case/19-CB-400041"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "American Postal Workers Union (United States Postal Service)",
-      "caseNumber": "15-CB-400046",
-      "dateFiled": "11/25/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Niceville, FL",
-      "region": "Region 15, New Orleans, Louisiana",
-      "url": "https://www.nlrb.gov/case/15-CB-400046"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "International Union of Operating Engineers, Local 302 (Westmoreland Rosebud Mining LLC)",
-      "caseNumber": "27-CB-400047",
-      "dateFiled": "11/25/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Colstrip, MT",
-      "region": "Region 27, Denver, Colorado",
-      "url": "https://www.nlrb.gov/case/27-CB-400047"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "NOR Healthcare Systems/Southern California Hospital at Culver City / HSA Hospitals",
-      "caseNumber": "31-CA-400053",
-      "dateFiled": "11/25/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Culver City, CA",
-      "region": "Region 31, Los Angeles, California",
-      "url": "https://www.nlrb.gov/case/31-CA-400053"
-    }
-  ]
+  "checkedAt": "2026-11-26T04:03:08.025Z",
+  "records": []
 }
