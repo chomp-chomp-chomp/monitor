@@ -180,5 +180,70 @@
     "region": "Region 10, Atlanta, Georgia",
     "url": "https://www.nlrb.gov/case/10-CA-400076",
     "archivedAt": "2026-11-27T16:02:58.324Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Hudson Elms",
+    "caseNumber": "08-CA-400086",
+    "dateFiled": "11/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Hudson, OH",
+    "region": "Region 08, Cleveland, Ohio",
+    "url": "https://www.nlrb.gov/case/08-CA-400086",
+    "archivedAt": "2026-11-27T20:02:42.239Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "15-CA-400085",
+    "dateFiled": "11/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Memphis, TN",
+    "region": "Region 15, New Orleans, Louisiana",
+    "url": "https://www.nlrb.gov/case/15-CA-400085",
+    "archivedAt": "2026-11-27T20:02:42.239Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States Postal Service",
+    "caseNumber": "10-CA-400103",
+    "dateFiled": "11/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Johnson City, TN",
+    "region": "Region 10, Atlanta, Georgia",
+    "url": "https://www.nlrb.gov/case/10-CA-400103",
+    "archivedAt": "2026-11-27T20:02:42.239Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "United States postal service",
+    "caseNumber": "07-CA-400109",
+    "dateFiled": "11/27/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Flint, MI",
+    "region": "Region 07, Detroit, Michigan",
+    "url": "https://www.nlrb.gov/case/07-CA-400109",
+    "archivedAt": "2026-11-27T20:02:42.239Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "Roosters Pizzeria and Grille",
+    "caseNumber": "27-CA-400097",
+    "dateFiled": "11/26/2026",
+    "caseType": "CA",
+    "status": "Open",
+    "location": "Calhan, CO",
+    "region": "Region 27, Denver, Colorado",
+    "url": "https://www.nlrb.gov/case/27-CA-400097",
+    "archivedAt": "2026-11-27T20:02:42.239Z"
   }
 ]
