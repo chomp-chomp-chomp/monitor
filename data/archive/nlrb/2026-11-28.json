@@ -115,5 +115,18 @@
     "region": "Region 19, Seattle, Washington",
     "url": "https://www.nlrb.gov/case/19-CB-400130",
     "archivedAt": "2026-11-28T00:05:55.883Z"
+  },
+  {
+    "source": "nlrb",
+    "sourceLabel": "NLRB",
+    "caseName": "UFCW Local 324 (CVS)",
+    "caseNumber": "21-CB-400132",
+    "dateFiled": "11/27/2026",
+    "caseType": "CB",
+    "status": "Open",
+    "location": "Carson, CA",
+    "region": "Region 21, Los Angeles, California",
+    "url": "https://www.nlrb.gov/case/21-CB-400132",
+    "archivedAt": "2026-11-28T04:02:55.250Z"
   }
 ]
