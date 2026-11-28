@@ -1,66 +1,114 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-27T20:02:42.239Z",
+  "checkedAt": "2026-11-28T00:05:55.883Z",
   "records": [
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Hudson Elms",
-      "caseNumber": "08-CA-400086",
+      "caseName": "Road to Hana, Healthy Living Market",
+      "caseNumber": "03-CA-400114",
       "dateFiled": "11/27/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Hudson, OH",
-      "region": "Region 08, Cleveland, Ohio",
-      "url": "https://www.nlrb.gov/case/08-CA-400086"
+      "location": "Saratoga Springs, NY",
+      "region": "Region 03, Buffalo, New York",
+      "url": "https://www.nlrb.gov/case/03-CA-400114"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "SEIU Local 503 (Oregon Supportive Living Program)",
+      "caseNumber": "19-CB-400111",
+      "dateFiled": "11/27/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Eugene, OR",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-400111"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
       "caseName": "United States Postal Service",
-      "caseNumber": "15-CA-400085",
-      "dateFiled": "11/27/2026",
-      "caseType": "CA",
-      "status": "Open",
-      "location": "Memphis, TN",
-      "region": "Region 15, New Orleans, Louisiana",
-      "url": "https://www.nlrb.gov/case/15-CA-400085"
-    },
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "United States Postal Service",
-      "caseNumber": "10-CA-400103",
+      "caseNumber": "10-CA-400117",
       "dateFiled": "11/27/2026",
       "caseType": "CA",
       "status": "Open",
       "location": "Johnson City, TN",
       "region": "Region 10, Atlanta, Georgia",
-      "url": "https://www.nlrb.gov/case/10-CA-400103"
+      "url": "https://www.nlrb.gov/case/10-CA-400117"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "United States postal service",
-      "caseNumber": "07-CA-400109",
+      "caseName": "United States Postal Service",
+      "caseNumber": "15-CA-400116",
       "dateFiled": "11/27/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Flint, MI",
-      "region": "Region 07, Detroit, Michigan",
-      "url": "https://www.nlrb.gov/case/07-CA-400109"
+      "location": "New Orleans, LA",
+      "region": "Region 15, New Orleans, Louisiana",
+      "url": "https://www.nlrb.gov/case/15-CA-400116"
     },
     {
       "source": "nlrb",
       "sourceLabel": "NLRB",
-      "caseName": "Roosters Pizzeria and Grille",
-      "caseNumber": "27-CA-400097",
-      "dateFiled": "11/26/2026",
+      "caseName": "Natca STX",
+      "caseNumber": "12-CB-400122",
+      "dateFiled": "11/27/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Kingshill, VI",
+      "region": "Region 12, Tampa, Florida",
+      "url": "https://www.nlrb.gov/case/12-CB-400122"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "IATSE, Local 62 (No Employer)",
+      "caseNumber": "27-CB-400121",
+      "dateFiled": "11/27/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Colorado Springs, CO",
+      "region": "Region 27, Denver, Colorado",
+      "url": "https://www.nlrb.gov/case/27-CB-400121"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "19-CA-400128",
+      "dateFiled": "11/27/2026",
       "caseType": "CA",
       "status": "Open",
-      "location": "Calhan, CO",
-      "region": "Region 27, Denver, Colorado",
-      "url": "https://www.nlrb.gov/case/27-CA-400097"
+      "location": "Bremerton, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-400128"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "United States Postal Service",
+      "caseNumber": "19-CA-400129",
+      "dateFiled": "11/27/2026",
+      "caseType": "CA",
+      "status": "Open",
+      "location": "Bremerton, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CA-400129"
+    },
+    {
+      "source": "nlrb",
+      "sourceLabel": "NLRB",
+      "caseName": "SEIU Healthcare 1199NW (Swedish Mill Creek)",
+      "caseNumber": "19-CB-400130",
+      "dateFiled": "11/27/2026",
+      "caseType": "CB",
+      "status": "Open",
+      "location": "Everett, WA",
+      "region": "Region 19, Seattle, Washington",
+      "url": "https://www.nlrb.gov/case/19-CB-400130"
     }
   ]
 }
