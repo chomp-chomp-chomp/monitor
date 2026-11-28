@@ -1,18 +1,5 @@
 {
   "ok": true,
-  "checkedAt": "2026-11-28T04:02:55.250Z",
-  "records": [
-    {
-      "source": "nlrb",
-      "sourceLabel": "NLRB",
-      "caseName": "UFCW Local 324 (CVS)",
-      "caseNumber": "21-CB-400132",
-      "dateFiled": "11/27/2026",
-      "caseType": "CB",
-      "status": "Open",
-      "location": "Carson, CA",
-      "region": "Region 21, Los Angeles, California",
-      "url": "https://www.nlrb.gov/case/21-CB-400132"
-    }
-  ]
+  "checkedAt": "2026-11-28T08:03:08.663Z",
+  "records": []
 }
